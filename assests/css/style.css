@@ -20,6 +20,7 @@
   background-image: url("../Images/DESKTOP/01_HOME/HOME_1.jpg");
   height: 700px;
   background-size: cover;
+  background-position: bottom;
 }
 
 .header .fa-search {
@@ -594,6 +595,7 @@
   .mbl-nav {
     display: block;
     padding: 20px 20px 0px 20px;
+    /*Mobile Search overlay */
   }
   .mbl-nav .overlay {
     height: 100%;
@@ -663,6 +665,78 @@
     font-size: 60px;
   }
   .mbl-nav .overlay .closebtn2 {
+    position: absolute;
+    top: 0px;
+    right: 8%;
+    font-size: 60px;
+  }
+  .mbl-nav .overlay2 {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    background-size: cover;
+    overflow-x: hidden;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .mbl-nav .overlay2-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .mbl-nav .overlay2-content input {
+    font-size: 28px;
+    font-family: lovato;
+    letter-spacing: 14px;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    background-color: unset;
+    text-align: center;
+    margin-left: 12%;
+    width: 74%;
+    padding: 20px;
+    border-radius: 0px;
+    margin-top: 30%;
+  }
+  .mbl-nav .overlay2 a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 28px;
+    color: #fff;
+    display: block;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    letter-spacing: 14px;
+    font-family: lovato;
+  }
+  .mbl-nav .extra-menu {
+    margin-top: 50%;
+  }
+  .mbl-nav .extra-menu a {
+    font-size: 12px;
+    font-family: P22Underground;
+    letter-spacing: 6px;
+    text-align: center;
+  }
+  .mbl-nav .overlay2 a:hover, .mbl-nav .overlay a:focus {
+    color: #f1f1f1;
+  }
+  .mbl-nav .overlay2 .closebtn {
+    position: absolute;
+    top: 2px;
+    right: 78%;
+    font-size: 60px;
+  }
+  .mbl-nav .overlay2 .closebtn2 {
     position: absolute;
     top: 0px;
     right: 8%;
@@ -941,6 +1015,7 @@
 .story-header {
   background-image: url("../Images/DESKTOP/04_STORY/STORY_1.jpg");
   background-size: cover;
+  background-position: bottom;
 }
 
 .story-header .fa-search {
@@ -1321,7 +1396,7 @@
     background-image: url("../Images/MOBILE/04_STORY/STORY_1.jpg");
   }
   .story-header .fa-angle-down {
-    margin-top: 65%;
+    margin-top: 88%;
   }
   .story-header h2 {
     font-size: 28px;
@@ -1329,7 +1404,7 @@
     padding-top: 15px;
   }
   .story-header .story-heading {
-    padding-top: 72%;
+    padding-top: 50%;
   }
   .storypage-content {
     padding: 40px 0px 0px 0px;
@@ -1486,6 +1561,7 @@
 .wine-header {
   background-image: url("../Images/DESKTOP/02_WINES/WINES_1.jpg");
   background-size: cover;
+  background-position: bottom;
 }
 
 .wine-header .fa-search {
@@ -1658,6 +1734,7 @@
 .residence-header {
   background-image: url("../Images/DESKTOP/05_RESIDENCES/RESIDENCES_1.jpg");
   background-size: cover;
+  background-position: bottom;
 }
 
 .residence-header .fa-search {
@@ -1969,6 +2046,7 @@
 .journal-header {
   background-image: url("../Images/DESKTOP/07_JOURNAL/JOURNAL_1.jpg");
   background-size: cover;
+  background-position: bottom;
 }
 
 .journal-header .fa-search {
@@ -2120,6 +2198,7 @@
 .residence-detail-header {
   background-image: url("../Images/DESKTOP/06_RESIDENCES_2/RESIDENCES_2_1.jpg");
   background-size: cover;
+  background-position: bottom;
 }
 
 .residence-detail-header .fa-search {
@@ -2504,7 +2583,7 @@
   }
   .product-detail .detail-bg {
     background-image: url("../Images/DESKTOP/PNG/untitled-1.png");
-    background-size: cover;
+    background-size: auto;
     width: 390px;
     height: 240px;
     margin-bottom: 25%;
@@ -2515,6 +2594,7 @@
 .contact-header {
   background-image: url("../Images/DESKTOP/09_CONTACT/CONTACT.jpg");
   background-size: cover;
+  background-position: bottom;
 }
 
 .contact-header .fa-search {

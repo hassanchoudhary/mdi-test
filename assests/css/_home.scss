@@ -5,6 +5,7 @@
     background-image: url("../Images/DESKTOP/01_HOME/HOME_1.jpg");
     height: 700px;
     background-size: cover;
+    background-position: bottom;
     .fa-search {
         color: $white;
         font-size: 15px;
@@ -587,6 +588,83 @@
             right: 8%;
             font-size: 60px;
           }
+
+/*Mobile Search overlay */
+
+.overlay2 {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0, 0.9);
+    background-size: cover;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  .overlay2-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    input {
+        font-size: 28px;
+        font-family: $headingfamily;
+        letter-spacing: 14px;
+        color: $white;
+        border-bottom: 1px solid $white;
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        background-color: unset;
+        text-align: center;
+        margin-left: 12%;
+        width: 74%;
+        padding: 20px;
+        border-radius: 0px;
+        margin-top: 30%;
+    }
+  }
+  .overlay2 a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 28px;
+    color: $white;
+    display: block;
+    transition: 0.3s;
+    letter-spacing: 14px;
+    font-family: $headingfamily;
+  }
+  .extra-menu {
+      margin-top: 50%;
+      a {
+          font-size: 12px;
+          font-family: $secondfamily;
+          letter-spacing: 6px;
+          text-align: center;
+      }
+  }
+  .overlay2 a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  .overlay2 .closebtn {
+    position: absolute;
+    top: 2px;
+    right: 78%;
+    font-size: 60px;
+  }
+  .overlay2 .closebtn2 {
+    position: absolute;
+    top: 0px;
+    right: 8%;
+    font-size: 60px;
+  }
+
+
+
+
     }
 
     .header {

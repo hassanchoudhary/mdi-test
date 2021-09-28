@@ -69,7 +69,7 @@
       <span style="font-size:30px;cursor:pointer;color: #fff;" onclick="openNav()">&#9776;</span>
       <span onclick="openSearch()"><i class="fas fa-search float-end mt-3"></i></span>
       <!-- Serch Icon-->
-      <div id="mySearch" class="overlay">
+      <div id="mySearch" class="overlay2">
         <a href="javascript:void(0)" class="closebtn2" onclick="closeSearch()">&times;</a>
         <div class="overlay-content">
         <input type="text" class="form-control" value="Search" >
@@ -145,9 +145,13 @@
            </div>
            <div class="container-fluid">
            <div class="row">
-            <div class="col">
+            <div class="col mbl-hide">
             <img style="width: -webkit-fill-available;" src="assests/Images/DESKTOP/PNG/Our Story 1.png" alt="">
             </div>
+            <div class="col desk-hide">
+              <img style="margin-left: -16px;width: 108%;" 
+              src="assests/Images/DESKTOP/PNG/our-storyA.png" alt="">
+              </div>
            </div>
         </div>
            <div class="container">
@@ -313,8 +317,39 @@
                 <p class="es-des mbl-hide">The Mas des Infermières estate is a mythical and private place; a vast, rambling and rich land where exceptional wines are created under the warmth of the Provençal sun. Since 1992 the Scott family have come here to paint, to read and to enjoy the life, played out over long hot summers.</p>
             </div>
         </div>
-        <div class="row mt-5">
-            <img src="assests/Images/DESKTOP/04_STORY/STORY_9.jpg" alt="">
+        <div class="row">
+            <img class="mbl-hide  mt-5" src="assests/Images/DESKTOP/04_STORY/STORY_9.jpg" alt="">
+
+            <div class="container-fluid desk-hide">
+              <div class="row">
+                  <div class="col">
+                      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img src="assests/Images/DESKTOP/04_STORY/STORY_9.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="assests/Images/DESKTOP/04_STORY/STORY_9.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="assests/Images/DESKTOP/04_STORY/STORY_9.jpg" class="d-block w-100" alt="...">
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+                  </div>
+              </div>
+          </div>
+
+
+
             <p class="slide-dis">This extraordinary “Arts” house is perfect for a big family or a group of friends. It has a separate apartment with kitchen and private entrance and terrace.</p>
             <p class="es-des desk-hide">The Mas des Infermières estate is a mythical and private place; a vast, rambling and rich land where exceptional wines are created under the warmth of the Provençal sun. Since 1992 the Scott family have come here to paint, to read and to enjoy the life, played out over long hot summers.</p>
         </div>
@@ -363,13 +398,7 @@
                             knowledge of wines and in particular the various appellations and crus of the southern Rhône Valley which I especially love.
                             I then took a big step forward, by creating my own company ... to select and support various
                             talented winegrowers in their business development and to offer buyers unique and quality
-                            wines.
-                            Then, I fell under the charm of Mas des Infermières ... its place in the heart of the Luberon, the
-                            potential of its vineyard, the magic of the project and the Scott family's enthusiasm for
-                            producing great wines.
-                            Above all, I love the exchanges and meetings that I have had for several years with national and
-                            international buyers, all sharing the same passion ... and so happy today to introduce them to
-                            the cuvées of Mas des Infermieres.</p>
+                            wines.</p>
                     </div>
 
                   </div>

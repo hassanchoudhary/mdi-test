@@ -3,6 +3,7 @@
 .story-header {
     background-image: url("../Images/DESKTOP/04_STORY/STORY_1.jpg");
     background-size: cover;
+    background-position: bottom;
     .fa-search {
         color: $white;
         font-size: 15px;
@@ -347,7 +348,7 @@
         background-image: url("../Images/MOBILE/04_STORY/STORY_1.jpg");
         height: 700px;
         .fa-angle-down {
-            margin-top: 65%;
+            margin-top: 88%;
         }
         h2 {
             font-size: 28px;
@@ -355,7 +356,7 @@
             padding-top: 15px;
         }
         .story-heading {
-            padding-top: 72%;
+            padding-top: 50%;
         }
     }
     .storypage-content {

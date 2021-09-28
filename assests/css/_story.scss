@@ -4,14 +4,26 @@
     background-image: url("../Images/DESKTOP/04_STORY/STORY_1.jpg");
     background-size: cover;
     background-position: bottom;
+    height: 700px;
     .fa-search {
         color: $white;
         font-size: 15px;
     }
-    .fa-angle-down {
-        color: $white;
-        font-size: 40px;
-        margin-top: 17%;
+    .arrow {
+        box-sizing: border-box;
+        height: 3vw;
+        width: 3vw;
+        border-style: solid;
+        border-color: white;
+        border-width: 0px 1px 1px 0px;
+        transform: rotate(45deg);
+        transition: border-width 150ms ease-in-out;
+        margin-left: 49%;
+        margin-top: 15%;
+    }
+    .arrow:hover {
+        border-bottom-width: 4px;
+        border-right-width: 4px;
     }
     ul {
         margin-left: 11%;
@@ -347,7 +359,9 @@
 
         background-image: url("../Images/MOBILE/04_STORY/STORY_1.jpg");
         height: 700px;
-        .fa-angle-down {
+        .arrow {
+            height: 5vw;
+            width: 5vw;
             margin-top: 88%;
         }
         h2 {

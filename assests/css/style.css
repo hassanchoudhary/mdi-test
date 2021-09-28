@@ -21,6 +21,7 @@
   height: 700px;
   background-size: cover;
   background-position: bottom;
+  /* Scroll arrow css */
 }
 
 .header .fa-search {
@@ -28,10 +29,25 @@
   font-size: 15px;
 }
 
-.header .fa-angle-down {
-  color: #fff;
-  font-size: 40px;
-  margin-top: 13%;
+.header .arrow {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 3vw;
+  width: 3vw;
+  border-style: solid;
+  border-color: white;
+  border-width: 0px 1px 1px 0px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-transition: border-width 150ms ease-in-out;
+  transition: border-width 150ms ease-in-out;
+  margin-left: 49%;
+  margin-top: 11%;
+}
+
+.header .arrow:hover {
+  border-bottom-width: 4px;
+  border-right-width: 4px;
 }
 
 .header ul {
@@ -745,8 +761,10 @@
   .header {
     background-image: url("../Images/MOBILE/01_HOME/HOME_1.jpg");
   }
-  .header .fa-angle-down {
-    margin-top: 70%;
+  .header .arrow {
+    height: 5vw;
+    width: 5vw;
+    margin-top: 60%;
   }
   .header img {
     width: 150px;
@@ -1016,6 +1034,7 @@
   background-image: url("../Images/DESKTOP/04_STORY/STORY_1.jpg");
   background-size: cover;
   background-position: bottom;
+  height: 700px;
 }
 
 .story-header .fa-search {
@@ -1023,10 +1042,25 @@
   font-size: 15px;
 }
 
-.story-header .fa-angle-down {
-  color: #fff;
-  font-size: 40px;
-  margin-top: 17%;
+.story-header .arrow {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 3vw;
+  width: 3vw;
+  border-style: solid;
+  border-color: white;
+  border-width: 0px 1px 1px 0px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-transition: border-width 150ms ease-in-out;
+  transition: border-width 150ms ease-in-out;
+  margin-left: 49%;
+  margin-top: 15%;
+}
+
+.story-header .arrow:hover {
+  border-bottom-width: 4px;
+  border-right-width: 4px;
 }
 
 .story-header ul {
@@ -1395,7 +1429,9 @@
   .story-header .mbl-nav .overlay {
     background-image: url("../Images/MOBILE/04_STORY/STORY_1.jpg");
   }
-  .story-header .fa-angle-down {
+  .story-header .arrow {
+    height: 5vw;
+    width: 5vw;
     margin-top: 88%;
   }
   .story-header h2 {
@@ -1562,6 +1598,8 @@
   background-image: url("../Images/DESKTOP/02_WINES/WINES_1.jpg");
   background-size: cover;
   background-position: bottom;
+  height: 700px;
+  /* Scroll arrow css */
 }
 
 .wine-header .fa-search {
@@ -1569,10 +1607,25 @@
   font-size: 15px;
 }
 
-.wine-header .fa-angle-down {
-  color: #fff;
-  font-size: 40px;
-  margin-top: 17%;
+.wine-header .arrow {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 3vw;
+  width: 3vw;
+  border-style: solid;
+  border-color: white;
+  border-width: 0px 1px 1px 0px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-transition: border-width 150ms ease-in-out;
+  transition: border-width 150ms ease-in-out;
+  margin-left: 49%;
+  margin-top: 15%;
+}
+
+.wine-header .arrow:hover {
+  border-bottom-width: 4px;
+  border-right-width: 4px;
 }
 
 .wine-header ul {
@@ -1696,8 +1749,10 @@
     letter-spacing: 14px;
     padding-top: 15px;
   }
-  .wine-header .fa-angle-down {
-    margin-top: 63%;
+  .wine-header .arrow {
+    height: 5vw;
+    width: 5vw;
+    margin-top: 60%;
   }
   .wine-header .wine-heading {
     padding: 75% 0% 2% 0%;
@@ -1735,6 +1790,7 @@
   background-image: url("../Images/DESKTOP/05_RESIDENCES/RESIDENCES_1.jpg");
   background-size: cover;
   background-position: bottom;
+  height: 700px;
 }
 
 .residence-header .fa-search {
@@ -1742,10 +1798,25 @@
   font-size: 15px;
 }
 
-.residence-header .fa-angle-down {
-  color: #fff;
-  font-size: 40px;
-  margin-top: 17%;
+.residence-header .arrow {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 3vw;
+  width: 3vw;
+  border-style: solid;
+  border-color: white;
+  border-width: 0px 1px 1px 0px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-transition: border-width 150ms ease-in-out;
+  transition: border-width 150ms ease-in-out;
+  margin-left: 49%;
+  margin-top: 15%;
+}
+
+.residence-header .arrow:hover {
+  border-bottom-width: 4px;
+  border-right-width: 4px;
 }
 
 .residence-header ul {
@@ -1986,11 +2057,13 @@
   .residence-header .mbl-nav .overlay {
     background-image: url("../Images/MOBILE/05_RESIDENCES_1/RESIDENCES_1_1.jpg");
   }
-  .residence-header .fa-angle-down {
-    margin-top: 48%;
+  .residence-header .arrow {
+    height: 5vw;
+    width: 5vw;
+    margin-top: 66%;
   }
   .residence-header .residence-heading {
-    padding: 63% 0% 20% 0%;
+    padding: 38% 0% 20% 0%;
   }
   .residence-header h2 {
     font-size: 28px;
@@ -2047,6 +2120,7 @@
   background-image: url("../Images/DESKTOP/07_JOURNAL/JOURNAL_1.jpg");
   background-size: cover;
   background-position: bottom;
+  height: 700px;
 }
 
 .journal-header .fa-search {
@@ -2054,10 +2128,25 @@
   font-size: 15px;
 }
 
-.journal-header .fa-angle-down {
-  color: #fff;
-  font-size: 40px;
-  margin-top: 17%;
+.journal-header .arrow {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 3vw;
+  width: 3vw;
+  border-style: solid;
+  border-color: white;
+  border-width: 0px 1px 1px 0px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-transition: border-width 150ms ease-in-out;
+  transition: border-width 150ms ease-in-out;
+  margin-left: 49%;
+  margin-top: 15%;
+}
+
+.journal-header .arrow:hover {
+  border-bottom-width: 4px;
+  border-right-width: 4px;
 }
 
 .journal-header ul {
@@ -2166,6 +2255,11 @@
     font-size: 28px;
     letter-spacing: 14px;
   }
+  .journal-header .arrow {
+    height: 5vw;
+    width: 5vw;
+    margin-top: 45%;
+  }
   .journal-header .journal-heading {
     padding: 35% 0% 20% 0%;
   }
@@ -2199,6 +2293,7 @@
   background-image: url("../Images/DESKTOP/06_RESIDENCES_2/RESIDENCES_2_1.jpg");
   background-size: cover;
   background-position: bottom;
+  height: 700px;
 }
 
 .residence-detail-header .fa-search {
@@ -2206,10 +2301,25 @@
   font-size: 15px;
 }
 
-.residence-detail-header .fa-angle-down {
-  color: #fff;
-  font-size: 40px;
-  margin-top: 17%;
+.residence-detail-header .arrow {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 3vw;
+  width: 3vw;
+  border-style: solid;
+  border-color: white;
+  border-width: 0px 1px 1px 0px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-transition: border-width 150ms ease-in-out;
+  transition: border-width 150ms ease-in-out;
+  margin-left: 49%;
+  margin-top: 15%;
+}
+
+.residence-detail-header .arrow:hover {
+  border-bottom-width: 4px;
+  border-right-width: 4px;
 }
 
 .residence-detail-header ul {
@@ -2382,8 +2492,10 @@
   .residence-detail-header .mbl-nav .overlay {
     background-image: url("../Images/MOBILE/06_RESIDENCES_2/RESIDENCES_2_1.jpg");
   }
-  .residence-detail-header .fa-angle-down {
-    margin-top: 80%;
+  .residence-detail-header .arrow {
+    height: 5vw;
+    width: 5vw;
+    margin-top: 77%;
   }
   .residence-detail-header h2 {
     font-size: 28px;
@@ -2595,6 +2707,7 @@
   background-image: url("../Images/DESKTOP/09_CONTACT/CONTACT.jpg");
   background-size: cover;
   background-position: bottom;
+  height: 700px;
 }
 
 .contact-header .fa-search {
@@ -2602,10 +2715,25 @@
   font-size: 15px;
 }
 
-.contact-header .fa-angle-down {
-  color: #fff;
-  font-size: 40px;
-  margin-top: 17%;
+.contact-header .arrow {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 3vw;
+  width: 3vw;
+  border-style: solid;
+  border-color: white;
+  border-width: 0px 1px 1px 0px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-transition: border-width 150ms ease-in-out;
+  transition: border-width 150ms ease-in-out;
+  margin-left: 49%;
+  margin-top: 15%;
+}
+
+.contact-header .arrow:hover {
+  border-bottom-width: 4px;
+  border-right-width: 4px;
 }
 
 .contact-header ul {

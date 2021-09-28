@@ -1,0 +1,2679 @@
+/*  Font Family   */
+@font-face {
+  font-family: 'lovato';
+  src: url("../fonts/Lovato-Regular.otf");
+}
+
+@font-face {
+  font-family: 'LyonText';
+  src: url("../fonts/Lyon Text-Regular.otf"), url("../fonts/Lyon Text-Regular Italic.otf");
+}
+
+@font-face {
+  font-family: 'P22Underground';
+  src: url("../fonts/P22UndergroundPro-Demi.otf"), url("../fonts/P22UndergroundPro-Heavy.otf"), url("../fonts/P22UndergroundPro-Medium.otf");
+}
+
+/*  ######################## HOME PAGE CSS ############ */
+/* Header Css */
+.header {
+  background-image: url("../Images/DESKTOP/01_HOME/HOME_1.jpg");
+  height: 700px;
+  background-size: cover;
+}
+
+.header .fa-search {
+  color: #fff;
+  font-size: 15px;
+}
+
+.header .fa-angle-down {
+  color: #fff;
+  font-size: 40px;
+  margin-top: 13%;
+}
+
+.header ul {
+  margin-left: 18%;
+}
+
+.header .nav-link {
+  color: #fff !important;
+  font-family: P22Underground;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 6px;
+}
+
+.header .nav-item {
+  margin-right: 20px;
+}
+
+.header nav {
+  padding: 40px 20px;
+}
+
+.header img {
+  width: 200px;
+  height: 200px;
+  float: center;
+  margin-top: 11%;
+}
+
+.desktop-nav {
+  display: block;
+}
+
+.desktop-nav .overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  background-color: black;
+  overflow-x: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.desktop-nav .overlay-content {
+  position: relative;
+  top: 14%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.desktop-nav .overlay-content input {
+  font-size: 28px;
+  font-family: lovato;
+  letter-spacing: 14px;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  background-color: unset;
+  text-align: center;
+  margin-left: 12%;
+  width: 74%;
+  padding: 20px;
+  border-radius: 0px;
+  margin-top: 14%;
+}
+
+.desktop-nav .overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 28px;
+  color: #fff;
+  display: block;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  letter-spacing: 14px;
+  font-family: lovato;
+}
+
+.desktop-nav .extra-menu a {
+  font-size: 12px;
+  font-family: P22Underground;
+  letter-spacing: 6px;
+  text-align: center;
+}
+
+.desktop-nav .overlay a:hover, .desktop-nav .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.desktop-nav .overlay .closebtn {
+  position: absolute;
+  top: 2px;
+  right: 78%;
+  font-size: 60px;
+}
+
+.desktop-nav .overlay .closebtn2 {
+  position: absolute;
+  top: 0px;
+  right: 4%;
+  font-size: 60px;
+}
+
+.mbl-nav {
+  display: none;
+}
+
+/* Introduction Section css */
+.introduction {
+  padding: 90px 0px 30px 0px;
+  background-color: #fbf9f6;
+}
+
+.introduction span {
+  font-family: P22Underground;
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: #8f8982;
+}
+
+.introduction h2 {
+  font-size: 50px;
+  font-family: lovato;
+  letter-spacing: 20px;
+  color: rgba(0, 0, 0, 0.8);
+  padding: 20px 0px 20px 0px;
+}
+
+.introduction p {
+  font-size: 20px;
+  font-family: LyonText;
+  color: rgba(0, 0, 0, 0.8);
+  width: 58%;
+  margin-left: 21%;
+  margin-right: 24%;
+  text-align: left;
+  text-align: justify;
+}
+
+.introduction a {
+  color: #000;
+  font-family: P22Underground;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 6px;
+}
+
+.introduction a:hover {
+  color: #000;
+}
+
+.introduction .img-intro1 {
+  width: 530.3px;
+  height: 502px;
+  margin-top: 30%;
+}
+
+.introduction .img-intro2 {
+  width: 121%;
+  height: 476px;
+  display: block;
+}
+
+.introduction .img-intro3 {
+  display: none;
+}
+
+.introduction .img-intro4 {
+  display: block;
+  width: 846px;
+  height: 475.9px;
+}
+
+.introduction .img-intro5 {
+  display: none;
+}
+
+.introduction .img-count {
+  display: block;
+}
+
+.introduction img {
+  width: 560px;
+  height: 160px;
+}
+
+.introduction .numbrs {
+  display: -webkit-inline-box;
+}
+
+.introduction .numbrs p {
+  margin-left: 0%;
+  margin-right: 0%;
+  font-size: 16px;
+  font-family: LyonText;
+  font-style: italic;
+  color: #000;
+}
+
+.introduction .numbrs span {
+  font-size: 12px;
+  font-family: P22Underground;
+  font-weight: 500;
+  color: #000;
+  margin-right: 20px;
+}
+
+/* Our Story Section css */
+.our-story {
+  display: block;
+}
+
+.story-content {
+  display: block;
+}
+
+.story-mbl {
+  display: none;
+}
+
+.our-story {
+  background-image: url("../Images/DESKTOP/01_HOME/HOME_6.jpg");
+  background-size: cover;
+  padding: 190px 0px 190px 0px;
+}
+
+.our-story span {
+  font-family: P22Underground;
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: #fff;
+}
+
+.our-story h2 {
+  font-size: 50px;
+  font-family: lovato;
+  letter-spacing: 20px;
+  padding: 20px 0px 20px 0px;
+  color: #fff;
+}
+
+.our-story p {
+  font-size: 20px;
+  font-family: LyonText;
+  width: 58%;
+  margin-left: 22%;
+  margin-right: 24%;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: justify;
+}
+
+.our-story a {
+  color: #fff;
+  font-family: P22Underground;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 6px;
+}
+
+.our-story a:hover {
+  color: #fff;
+}
+
+.story-content {
+  background-color: #fbf9f6;
+}
+
+.story-content span {
+  font-size: 12px;
+  font-family: P22Underground;
+  font-weight: 500;
+  color: #000;
+  margin-right: 20px;
+}
+
+.story-content img {
+  width: 848px;
+  height: 473px;
+}
+
+.story-content .numbrs {
+  display: -webkit-inline-box;
+}
+
+.story-content .numbrs p {
+  margin-left: 0%;
+  margin-right: 0%;
+  font-size: 16px;
+  font-family: LyonText;
+  font-style: italic;
+  color: #000;
+}
+
+.story-content .numbrs span {
+  font-size: 12px;
+  font-family: P22Underground;
+  font-weight: 500;
+  color: #000;
+  margin-right: 20px;
+}
+
+.story-content .intro-story img {
+  width: 470.4px;
+  height: 633px;
+}
+
+.story-content .intro-story p {
+  font-size: 20px;
+  font-family: lovato;
+  letter-spacing: 4.17px;
+  color: #8f8982;
+  width: 365px;
+  padding-top: 50px;
+  text-align: justify;
+  text-transform: uppercase;
+}
+
+.story-content .intro-story h5 {
+  font-family: P22Underground;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 6px;
+}
+
+/* Residence Section css */
+.residence-mbl {
+  display: none;
+}
+
+.our-residence {
+  padding: 0px 0px 40px 0px;
+  background-color: #fbf9f6;
+  display: block;
+}
+
+.our-residence .bg-residence {
+  background-image: url("../Images/DESKTOP/01_HOME/HOME_9.jpg");
+  height: 600px;
+  background-size: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.our-residence span {
+  font-family: P22Underground;
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: #8f8982;
+}
+
+.our-residence h2 {
+  font-size: 50px;
+  font-family: lovato;
+  letter-spacing: 14px;
+  color: rgba(0, 0, 0, 0.8);
+  padding: 20px 0px 20px 0px;
+}
+
+.our-residence p {
+  font-size: 20px;
+  font-family: LyonText;
+  color: rgba(0, 0, 0, 0.8);
+  width: 58%;
+  margin-left: 24%;
+  margin-right: 24%;
+  text-align: left;
+  text-align: justify;
+}
+
+.our-residence a {
+  color: #000;
+  font-family: P22Underground;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 6px;
+}
+
+.our-residence a:hover {
+  color: #000;
+}
+
+.our-residence .residence-intro {
+  margin-top: 90px;
+}
+
+.our-residence .residence-intro img {
+  width: 608px;
+  height: 335.9px;
+  margin-left: -117px;
+}
+
+.our-residence .residence-intro p {
+  font-size: 20px;
+  font-family: lovato;
+  letter-spacing: 4.17px;
+  color: #8f8982;
+  width: 365px;
+  padding-top: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  text-align: justify;
+  text-transform: uppercase;
+}
+
+.our-residence .residence-intro h5 {
+  font-family: P22Underground;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 6px;
+}
+
+.our-residence .numbrs {
+  display: -webkit-inline-box;
+}
+
+.our-residence .numbrs p {
+  margin-left: 0%;
+  margin-right: 0%;
+  font-size: 16px;
+  font-family: LyonText;
+  font-style: italic;
+  color: #000;
+}
+
+.our-residence .numbrs span {
+  font-size: 12px;
+  font-family: P22Underground;
+  font-weight: 500;
+  color: #000;
+  margin-right: 20px;
+}
+
+/* Connect Section css */
+.connect {
+  background-color: rgba(170, 162, 154, 0.3);
+  padding: 90px 0px 90px 0px;
+}
+
+.connect span {
+  font-family: P22Underground;
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: #484133;
+}
+
+.connect h2 {
+  font-size: 50px;
+  font-family: lovato;
+  letter-spacing: 25px;
+  color: rgba(0, 0, 0, 0.8);
+  padding: 20px 0px 20px 0px;
+}
+
+.connect img {
+  width: 100%;
+}
+
+.connect a {
+  color: #000;
+  font-family: P22Underground;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 6px;
+}
+
+.insta-hide {
+  display: block;
+}
+
+/* Footer Section css */
+.footer {
+  background-color: #3a352d;
+  padding: 90px 0px 90px 0px;
+}
+
+.footer a {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 6px;
+  font-family: P22Underground;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #fff;
+}
+
+.footer p {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 6px;
+  font-family: P22Underground;
+  line-height: 2;
+}
+
+.footer .footer-bottom p {
+  font-size: 16px;
+  font-style: italic;
+  font-family: LyonText;
+  letter-spacing: 1px;
+  font-weight: normal;
+  line-height: 1.38;
+  width: 80%;
+}
+
+.footer .footer-bottom input {
+  padding: 14px 0 14px 17px;
+  border: solid 1px #fff;
+  font-size: 10px;
+  font-family: LyonText;
+  letter-spacing: 3px;
+  color: #fff !important;
+  background-color: unset;
+  margin-right: 0px !important;
+  border-radius: 2px 0px 0px 2px;
+  margin-top: -1px;
+  text-transform: uppercase;
+  width: 69%;
+}
+
+.footer .footer-bottom button {
+  padding: 8px 17px 8px 17px;
+  border: solid 1px #fff;
+  font-size: 10px;
+  font-family: LyonText;
+  letter-spacing: 3px;
+  color: #fff;
+  margin-top: -1px;
+  border-radius: 0px 2px 2px 0px;
+  text-transform: uppercase;
+  width: 26%;
+}
+
+.footer {
+  display: block;
+}
+
+.footer-mbl {
+  display: none;
+}
+
+/* Home Page Responsive Mobile Css */
+@media (max-width: 575.98px) {
+  .desktop-nav {
+    display: none;
+  }
+  .mbl-nav {
+    display: block;
+    padding: 20px 20px 0px 20px;
+  }
+  .mbl-nav .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .mbl-nav .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .mbl-nav .overlay-content input {
+    font-size: 28px;
+    font-family: lovato;
+    letter-spacing: 14px;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    background-color: unset;
+    text-align: center;
+    margin-left: 12%;
+    width: 74%;
+    padding: 20px;
+    border-radius: 0px;
+    margin-top: 30%;
+  }
+  .mbl-nav .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 28px;
+    color: #fff;
+    display: block;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    letter-spacing: 14px;
+    font-family: lovato;
+  }
+  .mbl-nav .extra-menu a {
+    font-size: 12px;
+    font-family: P22Underground;
+    letter-spacing: 6px;
+    text-align: center;
+  }
+  .mbl-nav .overlay a:hover, .mbl-nav .overlay a:focus {
+    color: #f1f1f1;
+  }
+  .mbl-nav .overlay .closebtn {
+    position: absolute;
+    top: 2px;
+    right: 78%;
+    font-size: 60px;
+  }
+  .mbl-nav .overlay .closebtn2 {
+    position: absolute;
+    top: 0px;
+    right: 8%;
+    font-size: 60px;
+  }
+  .header {
+    background-image: url("../Images/MOBILE/01_HOME/HOME_1.jpg");
+  }
+  .header .fa-angle-down {
+    margin-top: 70%;
+  }
+  .header img {
+    width: 150px;
+    height: 150px;
+    margin-top: 50%;
+  }
+  .introduction {
+    padding: 60px 0px 0px 0px;
+  }
+  .introduction h2 {
+    font-size: 28px;
+    letter-spacing: 14px;
+  }
+  .introduction p {
+    font-size: 16px;
+    padding: 20px 40px;
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 350px;
+  }
+  .introduction .img-intro1 {
+    margin-top: -20%;
+    margin-left: 15px;
+    width: 269.4px;
+    height: 255px;
+  }
+  .introduction .img-intro2 {
+    display: none;
+  }
+  .introduction .img-intro3 {
+    display: block;
+    width: 350px;
+    height: 400px;
+    margin-bottom: 30px;
+  }
+  .introduction .img-intro4 {
+    display: none;
+  }
+  .introduction .img-intro5 {
+    display: block;
+    width: 350px;
+    height: 400px;
+  }
+  .introduction .img-count {
+    display: none;
+  }
+  .introduction .numbrs {
+    display: none;
+  }
+  .introduction img {
+    width: 282px;
+    height: 88px;
+    float: right;
+  }
+  .our-story {
+    display: none;
+  }
+  .story-content {
+    display: none;
+  }
+  .story-mbl {
+    background-color: #fbf9f6;
+    padding-bottom: 60px;
+    display: block;
+  }
+  .story-mbl h2 {
+    font-size: 28px;
+    letter-spacing: 14px;
+    font-family: lovato;
+    color: rgba(0, 0, 0, 0.8);
+    padding-top: 10px;
+    padding-bottom: 40px;
+  }
+  .story-mbl span {
+    font-family: P22Underground;
+    font-size: 12px;
+    letter-spacing: 3px;
+    color: #8f8982;
+  }
+  .story-mbl p {
+    font-family: LyonText;
+    font-size: 16px;
+    padding: 20px 40px;
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 350px;
+    text-align: justify;
+  }
+  .story-mbl img {
+    width: 350px;
+    height: 300px;
+  }
+  .story-mbl a {
+    color: #000;
+    font-family: P22Underground;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 6px;
+  }
+  .story-mbl a:hover {
+    color: #000;
+  }
+  .story-mbl .storymbl-intro p {
+    font-size: 16px;
+    font-family: lovato;
+    letter-spacing: 3.33px;
+    color: #8f8982;
+    padding: 20px 30px 10px 30px;
+    text-transform: uppercase;
+  }
+  .story-mbl .storymbl-intro h5 {
+    font-family: P22Underground;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 6px;
+    padding: 0px 30px 0px 30px;
+  }
+  .story-mbl .storymbl-introimg {
+    width: auto;
+    height: 300px;
+    float: right;
+    margin-top: 30px;
+  }
+  .our-residence {
+    display: none;
+  }
+  .residence-mbl {
+    background-color: #fbf9f6;
+    padding-bottom: 60px;
+    display: block;
+  }
+  .residence-mbl h2 {
+    font-size: 28px;
+    letter-spacing: 14px;
+    font-family: lovato;
+    color: rgba(0, 0, 0, 0.8);
+    padding-top: 10px;
+    padding-bottom: 40px;
+  }
+  .residence-mbl span {
+    font-family: P22Underground;
+    font-size: 12px;
+    letter-spacing: 3px;
+    color: #8f8982;
+  }
+  .residence-mbl p {
+    font-family: LyonText;
+    font-size: 16px;
+    padding: 20px 40px;
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 350px;
+    text-align: justify;
+  }
+  .residence-mbl img {
+    width: 350px;
+    height: 300px;
+  }
+  .residence-mbl a {
+    color: #000;
+    font-family: P22Underground;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 6px;
+  }
+  .residence-mbl a:hover {
+    color: Black;
+  }
+  .residence-mbl .resi-intro {
+    font-size: 16px;
+    font-family: lovato;
+    letter-spacing: 3.33px;
+    color: #8f8982;
+    padding: 20px 30px 10px 30px;
+    text-transform: uppercase;
+  }
+  .residence-mbl h5 {
+    font-family: P22Underground;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 6px;
+    padding: 0px 30px 0px 30px;
+  }
+  .insta-hide {
+    display: none;
+  }
+  .connect h2 {
+    font-size: 28px;
+  }
+  .footer {
+    display: none;
+  }
+  .footer-mbl {
+    display: block;
+    padding: 50px 0px 50px 0px;
+    background-color: #3a352d;
+  }
+  .footer-mbl a {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 6px;
+    font-family: P22Underground;
+    margin-bottom: 10px;
+    text-decoration: none;
+    display: block;
+    line-height: 2.5;
+  }
+  .footer-mbl .social-icon {
+    padding: 30px 0px 30px 0px;
+  }
+  .footer-mbl i {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 30px;
+    margin-left: 20px;
+  }
+  .footer-mbl hr {
+    color: #fff;
+  }
+  .footer-mbl .newsletter {
+    padding-bottom: 30px;
+  }
+  .footer-mbl .newsletter p {
+    font-size: 14px;
+    font-style: italic;
+    font-family: LyonText;
+    color: #fff;
+    float: left;
+  }
+  .footer-mbl .newsletter input {
+    padding: 15px 0 15px 17px;
+    border: solid 1px #fff;
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-family: LyonText;
+    color: #fff !important;
+    background-color: unset;
+    margin-right: 0px !important;
+    border-radius: 2px 2px 0px 0px;
+    text-transform: uppercase;
+    width: 100%;
+  }
+  .footer-mbl .newsletter button {
+    padding: 15px 17px 15px 17px;
+    border: solid 1px #fff;
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-family: LyonText;
+    color: #fff;
+    border-radius: 0px 0px 2px 2px;
+    float: left;
+    width: 100%;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  .footer-mbl .footermbl-bottom p {
+    font-size: 8px;
+    font-family: P22Underground;
+    letter-spacing: 4px;
+    color: #fff;
+  }
+}
+
+/*  ######################## Story PAGE CSS ############ */
+.story-header {
+  background-image: url("../Images/DESKTOP/04_STORY/STORY_1.jpg");
+  background-size: cover;
+}
+
+.story-header .fa-search {
+  color: #fff;
+  font-size: 15px;
+}
+
+.story-header .fa-angle-down {
+  color: #fff;
+  font-size: 40px;
+  margin-top: 17%;
+}
+
+.story-header ul {
+  margin-left: 11%;
+}
+
+.story-header .nav-link {
+  color: #fff !important;
+  font-family: P22Underground;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 6px;
+}
+
+.story-header .nav-item {
+  margin-right: 20px;
+}
+
+.story-header nav {
+  padding: 40px 20px;
+}
+
+.story-header span {
+  font-family: P22Underground;
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: #fff;
+}
+
+.story-header h2 {
+  font-size: 50px;
+  font-family: lovato;
+  letter-spacing: 25px;
+  color: #fff;
+  padding-top: 15px;
+}
+
+.story-header .story-heading {
+  padding: 15% 0% 2% 0%;
+}
+
+/* Story content Css  */
+.storypage-content {
+  padding: 90px 0px 60px 0px;
+  background-color: #fbf9f6;
+}
+
+.storypage-content .st-des {
+  font-size: 20px;
+  font-family: lovato;
+  letter-spacing: 4.17px;
+  color: rgba(0, 0, 0, 0.8);
+  width: 74%;
+  margin-left: 13%;
+  margin-right: 13%;
+  text-align: justify;
+  text-transform: uppercase;
+}
+
+.storypage-content p {
+  font-size: 20px;
+  font-family: LyonText;
+  color: rgba(0, 0, 0, 0.8);
+  letter-spacing: 1.11px;
+  width: 95%;
+  text-align: justify;
+}
+
+.storypage-content .numbrs {
+  display: -webkit-inline-box;
+}
+
+.storypage-content .numbrs p {
+  margin-left: 0%;
+  margin-right: 0%;
+  font-size: 16px;
+  font-family: LyonText;
+  font-style: italic;
+  color: #000;
+  text-align: justify;
+}
+
+.storypage-content .numbrs span {
+  font-size: 12px;
+  font-family: P22Underground;
+  font-weight: 500;
+  color: #000;
+  margin-right: 20px;
+}
+
+/* CAVE & VINEYARD Section Css  */
+.cave {
+  padding: 30px 0px 90px 0px;
+  background-color: #fbf9f6;
+}
+
+.cave span {
+  font-family: P22Underground;
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: #8f8982;
+}
+
+.cave h2 {
+  font-size: 50px;
+  font-family: lovato;
+  letter-spacing: 25px;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.cave .cave-des {
+  font-size: 20px;
+  font-family: LyonText;
+  color: rgba(0, 0, 0, 0.8);
+  letter-spacing: 1.11px;
+  width: 67%;
+  margin-left: 17%;
+  margin-right: 17%;
+  text-align: justify;
+}
+
+.cave .slider-dis {
+  font-size: 16px;
+  font-family: LyonText;
+  font-style: italic;
+  letter-spacing: 1px;
+  color: #000;
+  width: 41%;
+  padding-top: 30px;
+  text-align: justify;
+}
+
+.cave .cave-intro img {
+  width: 90%;
+  height: 70%;
+  margin-top: 15%;
+}
+
+.cave .cave-intro p {
+  font-size: 20px;
+  font-family: lovato;
+  letter-spacing: 4.17px;
+  color: #8f8982;
+  width: 365px;
+  text-align: justify;
+  text-transform: uppercase;
+}
+
+.cave .cave-intro h5 {
+  font-family: P22Underground;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 6px;
+}
+
+.cave .cave-intro .caveintro-img2 {
+  height: auto;
+  width: 121%;
+}
+
+.cave .caveintro-img3 {
+  width: 117%;
+  height: 43%;
+  margin-left: -21%;
+}
+
+.cave .caveintro-img4 {
+  height: 27%;
+  width: 100%;
+}
+
+.cave .numbrs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+}
+
+.cave .numbrs p {
+  margin-left: 0%;
+  margin-right: 0%;
+  font-size: 16px;
+  font-family: LyonText;
+  font-style: italic;
+  color: #000;
+  text-align: justify;
+}
+
+.cave .numbrs span {
+  font-size: 12px;
+  font-family: P22Underground;
+  font-weight: 500;
+  color: #000;
+  margin-right: 20px;
+}
+
+/* The ESTATE Section Css  */
+.estate {
+  padding: 0px 0px 90px 0px;
+  margin-top: -15%;
+  background-color: #fbf9f6;
+}
+
+.estate span {
+  font-family: P22Underground;
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: #8f8982;
+}
+
+.estate h2 {
+  font-size: 50px;
+  font-family: lovato;
+  letter-spacing: 25px;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.estate .es-des {
+  font-size: 20px;
+  font-family: LyonText;
+  color: rgba(0, 0, 0, 0.8);
+  letter-spacing: 1.11px;
+  width: 63%;
+  margin-left: 17%;
+  margin-right: 17%;
+  text-align: justify;
+}
+
+.estate .slide-dis {
+  font-size: 16px;
+  font-family: LyonText;
+  font-style: italic;
+  letter-spacing: 1px;
+  color: #000;
+  width: 41%;
+  padding-top: 20px;
+  text-align: justify;
+}
+
+.estate .estateintro-img1 {
+  width: 40%;
+  float: right;
+}
+
+.estate .estate-intro p {
+  font-size: 20px;
+  font-family: lovato;
+  letter-spacing: 4.17px;
+  color: #8f8982;
+  width: 365px;
+  text-align: justify;
+  margin-top: -4%;
+  text-transform: uppercase;
+}
+
+.estate .estate-intro h5 {
+  font-family: P22Underground;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 6px;
+}
+
+/* Team Section Css */
+.team {
+  background-color: #e1ddd4;
+  padding: 60px 0px 60px 0px;
+}
+
+.team span {
+  font-family: P22Underground;
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: #484133;
+}
+
+.team h2 {
+  font-size: 50px;
+  font-family: lovato;
+  letter-spacing: 25px;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/*Team Carousel Css */
+.team-card img {
+  height: 50%;
+  width: 50%;
+}
+
+.team-card h3 {
+  font-size: 20px;
+  font-family: lovato;
+  letter-spacing: 4.17px;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.team-card p {
+  font-size: 20px;
+  font-family: LyonText;
+  letter-spacing: 1.11px;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: justify;
+}
+
+/* Environment Section css */
+.environment {
+  padding: 60px 0px 60px 0px;
+  background-color: #fbf9f6;
+}
+
+.environment span {
+  font-family: P22Underground;
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: #8f8982;
+}
+
+.environment h2 {
+  font-size: 50px;
+  font-family: lovato;
+  letter-spacing: 25px;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.environment p {
+  font-size: 20px;
+  font-family: LyonText;
+  letter-spacing: 1.11px;
+  text-align: justify;
+  color: rgba(0, 0, 0, 0.8);
+  width: 95%;
+}
+
+.environment img {
+  width: 94%;
+}
+
+.desk-hide {
+  display: none !important;
+}
+
+.mbl-hide {
+  display: block !important;
+}
+
+/* Story page responsive mobile css */
+@media (max-width: 575.98px) {
+  .story-header {
+    background-image: url("../Images/MOBILE/04_STORY/STORY_1.jpg");
+    height: 700px;
+  }
+  .story-header .fa-angle-down {
+    margin-top: 65%;
+  }
+  .story-header h2 {
+    font-size: 28px;
+    letter-spacing: 14px;
+    padding-top: 15px;
+  }
+  .story-header .story-heading {
+    padding-top: 72%;
+  }
+  .storypage-content {
+    padding: 40px 0px 0px 0px;
+  }
+  .storypage-content .st-des {
+    font-size: 14px;
+    letter-spacing: 3.33px;
+    margin-left: -1%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+    width: 100%;
+  }
+  .storypage-content p {
+    font-size: 16px;
+    letter-spacing: 0.89px;
+    width: 100%;
+    padding: 0px 20px 0px 20px;
+  }
+  .storypage-content a {
+    color: #000;
+    font-family: P22Underground;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 6px;
+  }
+  .storypage-content .tab-res {
+    width: 350px;
+    height: 350px;
+  }
+  .cave {
+    padding: 40px 0px 40px 0px;
+  }
+  .cave h2 {
+    font-size: 28px;
+    letter-spacing: 14px;
+  }
+  .cave .slider-dis {
+    width: 100%;
+    font-size: 16px;
+    padding: 20px 30px 20px 30px;
+  }
+  .cave .cave-des {
+    font-size: 16px;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding: 0px 30px 0px 30px;
+  }
+  .cave .cave-intro img {
+    height: 100%;
+    margin-top: 0%;
+    margin-left: 5%;
+  }
+  .cave a {
+    color: #000;
+    font-family: P22Underground;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 6px;
+  }
+  .cave .cave-intro .caveintro-img2 {
+    height: auto;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 5%;
+  }
+  .cave .cave-intro p {
+    font-size: 16px;
+    letter-spacing: 3.33px;
+    width: 100%;
+    padding: 20px 30px 0px 30px;
+  }
+  .cave .cave-intro h5 {
+    padding-left: 30px;
+  }
+  .cave .caveintro-img3 {
+    width: 100%;
+    height: 100%;
+    margin-left: 0%;
+    margin-top: 10%;
+  }
+  .cave .caveintro-img4 {
+    width: 183.2px;
+    height: 150.7px;
+    margin-top: 15%;
+    margin-left: 40%;
+  }
+  .estate {
+    margin-top: 0%;
+  }
+  .estate h2 {
+    font-size: 28px;
+    letter-spacing: 14px;
+  }
+  .estate .slide-dis {
+    width: 100%;
+    padding: 20px 30px 0px 30px;
+    font-size: 12px;
+  }
+  .estate .es-des {
+    width: 100%;
+    padding: 0px 30px 0px 30px;
+    font-size: 12px;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  .estate .estateintro-img1 {
+    width: 80%;
+    float: right;
+  }
+  .estate .estate-intro p {
+    font-size: 16px;
+    letter-spacing: 3.33px;
+    width: 100%;
+    padding: 20px 30px 0px 30px;
+  }
+  .estate .estate-intro h5 {
+    padding-left: 30px;
+  }
+  .team h2 {
+    font-size: 28px;
+    letter-spacing: 14px;
+  }
+  .team .team-card {
+    margin: 20px;
+  }
+  .environment h2 {
+    font-size: 28px;
+    letter-spacing: 14px;
+  }
+  .environment img {
+    width: 100%;
+  }
+  .environment p {
+    font-size: 14px;
+    letter-spacing: 0.89px;
+    padding: 30px;
+  }
+  .box-hide {
+    display: none !important;
+  }
+  .desk-hide {
+    display: block !important;
+  }
+  .mbl-hide {
+    display: none !important;
+  }
+  .mobile-hide {
+    display: none !important;
+  }
+}
+
+/*  ######################## Wines PAGE CSS ############ */
+.wine-header {
+  background-image: url("../Images/DESKTOP/02_WINES/WINES_1.jpg");
+  background-size: cover;
+}
+
+.wine-header .fa-search {
+  color: #fff;
+  font-size: 15px;
+}
+
+.wine-header .fa-angle-down {
+  color: #fff;
+  font-size: 40px;
+  margin-top: 17%;
+}
+
+.wine-header ul {
+  margin-left: 11%;
+}
+
+.wine-header .nav-link {
+  color: #fff !important;
+  font-family: P22Underground;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 6px;
+}
+
+.wine-header .nav-item {
+  margin-right: 20px;
+}
+
+.wine-header nav {
+  padding: 40px 20px;
+}
+
+.wine-header span {
+  font-family: P22Underground;
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: #fff;
+}
+
+.wine-header h2 {
+  font-size: 50px;
+  font-family: lovato;
+  letter-spacing: 25px;
+  color: #fff;
+  padding-top: 15px;
+}
+
+.wine-header .wine-heading {
+  padding: 15% 0% 2% 0%;
+}
+
+.wine-dis {
+  background-color: #ebe8e2;
+  padding: 70px 0px 50px 0px;
+}
+
+.wine-dis p {
+  font-size: 20px;
+  font-family: lovato;
+  letter-spacing: 4.17px;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  width: 88%;
+  margin-left: 8%;
+  text-transform: uppercase;
+}
+
+.wine-collection {
+  background-color: #ebe8e2;
+  padding-bottom: 90px;
+}
+
+.wine-collection span {
+  font-family: P22Underground;
+  font-size: 12px;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #8f8982;
+}
+
+.wine-collection h2 {
+  font-size: 50px;
+  font-family: lovato;
+  letter-spacing: 25px;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  margin-top: 20px;
+}
+
+.wine-collection .wine-item img {
+  width: 250.8px;
+  height: 700px;
+}
+
+.wine-collection .wine-item h3 {
+  font-size: 20px;
+  font-family: lovato;
+  letter-spacing: 4.17px;
+  color: rgba(0, 0, 0, 0.8);
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.wine-collection .wine-item a {
+  color: #000;
+  font-family: P22Underground;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 6px;
+}
+
+.wine-collection .wine-item p {
+  font-size: 24px;
+  letter-spacing: 4px;
+  color: rgba(0, 0, 0, 0.8);
+  font-family: lovato;
+  padding-top: 130%;
+}
+
+/* Wine Page Mobile Responsive CSs */
+@media (max-width: 575.98px) {
+  .wine-header {
+    background-image: url("../Images/MOBILE/02_WINES/WINES_1.jpg");
+    height: 700px;
+  }
+  .wine-header h2 {
+    font-size: 28px;
+    letter-spacing: 14px;
+    padding-top: 15px;
+  }
+  .wine-header .fa-angle-down {
+    margin-top: 63%;
+  }
+  .wine-header .wine-heading {
+    padding: 75% 0% 2% 0%;
+  }
+  .wine-dis .dis-p1 {
+    font-size: 16px;
+    font-family: lovato;
+    letter-spacing: 2.33px;
+    text-align: justify;
+    margin-left: 5%;
+  }
+  .wine-dis .dis-p2 {
+    font-size: 16px;
+    font-family: LyonText;
+    letter-spacing: 0.89px;
+    text-align: justify;
+    margin-top: 10%;
+    margin-left: 5%;
+  }
+  .wine-collection h2 {
+    font-size: 28px;
+    letter-spacing: 14px;
+  }
+  .wine-collection .wine-item img {
+    width: 150.8px;
+    height: 500px;
+  }
+  .wine-collection p {
+    padding-top: 70% !important;
+  }
+}
+
+/*  ######################## RESIDENCE PAGE CSS ############ */
+.residence-header {
+  background-image: url("../Images/DESKTOP/05_RESIDENCES/RESIDENCES_1.jpg");
+  background-size: cover;
+}
+
+.residence-header .fa-search {
+  color: #fff;
+  font-size: 15px;
+}
+
+.residence-header .fa-angle-down {
+  color: #fff;
+  font-size: 40px;
+  margin-top: 17%;
+}
+
+.residence-header ul {
+  margin-left: 11%;
+}
+
+.residence-header .nav-link {
+  color: #fff !important;
+  font-family: P22Underground;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 6px;
+}
+
+.residence-header .nav-item {
+  margin-right: 20px;
+}
+
+.residence-header nav {
+  padding: 40px 20px;
+}
+
+.residence-header span {
+  font-family: P22Underground;
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: #fff;
+}
+
+.residence-header h2 {
+  font-size: 50px;
+  font-family: lovato;
+  letter-spacing: 25px;
+  color: #fff;
+  padding-top: 15px;
+}
+
+.residence-header .residence-heading {
+  padding: 15% 0% 2% 0%;
+}
+
+.stay-mas {
+  background-color: #fbf9f6;
+  padding: 60px 0px 30px 0px;
+}
+
+.stay-mas span {
+  font-family: P22Underground;
+  font-size: 12px;
+  letter-spacing: 4px;
+  text-align: center;
+  color: #aea79e;
+}
+
+.stay-mas h2 {
+  font-size: 50px;
+  font-family: lovato;
+  letter-spacing: 25px;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  padding-top: 1%;
+}
+
+.stay-mas p {
+  font-size: 20px;
+  font-family: LyonText;
+  letter-spacing: 1.11px;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: justify;
+  width: 97%;
+}
+
+.stay-category {
+  background-color: #fbf9f6;
+  padding: 30px 0px 60px 0px;
+}
+
+.stay-category span {
+  color: #aea79e;
+  font-size: 12px;
+  font-family: P22Underground;
+  letter-spacing: 5px;
+}
+
+.stay-category h4 {
+  font-size: 20px;
+  font-family: lovato;
+  letter-spacing: 4.17px;
+  color: rgba(0, 0, 0, 0.8);
+  padding-top: 2%;
+  text-transform: uppercase;
+}
+
+.stay-category a {
+  color: #000;
+  font-family: P22Underground;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 6px;
+}
+
+.stayimg-section {
+  background-color: #fbf9f6;
+  padding: 30px 0px 60px 0px;
+}
+
+.stayimg-section .stayimg1 {
+  width: 100%;
+  height: 652px;
+  margin-left: -2%;
+}
+
+.stayimg-section .stayimg2 {
+  width: 292px;
+  height: 225.6px;
+  margin-top: 50%;
+  margin-left: 20%;
+}
+
+.stayimg-section span {
+  font-family: P22Underground;
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+
+.stayimg-section .stay-intro {
+  margin-top: 5%;
+}
+
+.stayimg-section .stay-intro p {
+  font-size: 20px;
+  font-family: lovato;
+  letter-spacing: 4.17px;
+  text-align: justify;
+  color: #8f8982;
+  text-transform: uppercase;
+}
+
+.stayimg-section .stay-intro h5 {
+  font-family: P22Underground;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 6px;
+}
+
+.stayimg-section .stayimg3 {
+  width: 686px;
+  height: 466.7px;
+  margin-left: 17%;
+}
+
+.stayimg-section .stayimg4 {
+  width: 523px;
+  height: 348.7px;
+  margin-top: -28px;
+}
+
+.stayimg-section .stay-point {
+  margin-top: 13%;
+}
+
+.stayimg-section .numbrs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.stayimg-section .numbrs p {
+  margin-left: 0%;
+  margin-right: 0%;
+  font-size: 16px;
+  font-family: LyonText;
+  font-style: italic;
+  color: #000;
+}
+
+.stayimg-section .numbrs span {
+  font-size: 12px;
+  font-family: P22Underground;
+  font-weight: 500;
+  color: #000;
+  margin-right: 20px;
+}
+
+.accomodation {
+  background-color: #fbf9f6;
+  padding: 30px 0px 60px 0px;
+}
+
+.accomodation h2 {
+  font-size: 50px;
+  font-family: lovato;
+  letter-spacing: 25px;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+}
+
+.accomodation .acco-img {
+  width: 1057px;
+  height: 753.2px;
+  margin-top: 5%;
+}
+
+.accomodation .acco-img1 {
+  width: 230px;
+  height: 235px;
+  margin-top: -20%;
+}
+
+.accomodation .acco-link {
+  float: right;
+  margin-top: -42%;
+  text-transform: uppercase;
+}
+
+.accomodation .acco-link p {
+  font-size: 20px;
+  text-align: justify;
+  letter-spacing: 4.17px;
+  font-family: lovato;
+  line-height: 1px;
+}
+
+.accomodation .acco-link a {
+  color: #000;
+  font-family: P22Underground;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 6px;
+}
+
+/* Residence Page Mobile responsive Css */
+@media (max-width: 575.98px) {
+  .residence-header {
+    background-image: url("../Images/MOBILE/05_RESIDENCES_1/RESIDENCES_1_1.jpg");
+    height: 600px;
+  }
+  .residence-header .fa-angle-down {
+    margin-top: 48%;
+  }
+  .residence-header .residence-heading {
+    padding: 63% 0% 20% 0%;
+  }
+  .residence-header h2 {
+    font-size: 28px;
+    letter-spacing: 14px;
+    margin-top: 15px;
+  }
+  .stay-mas h2 {
+    font-size: 28px;
+    letter-spacing: 18px;
+  }
+  .stay-mas p {
+    font-size: 16px;
+    font-family: LyonText;
+    width: 100%;
+    padding: 0px 30px 0px 30px;
+  }
+  .stay-mas img {
+    height: 200px;
+    width: 300px;
+  }
+  .stay-mas a {
+    color: #000;
+    font-family: P22Underground;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 6px;
+  }
+  .cta-box {
+    padding: 30px;
+    border-top: 1px solid #8f8982;
+    border-bottom: 1px solid #8f8982;
+  }
+  .stayimg1-mbl {
+    width: 350px;
+    height: 400px;
+  }
+  .stayimg-desmbl {
+    font-size: 16px;
+    font-family: LyonText;
+    font-style: italic;
+    letter-spacing: 1px;
+    color: #000;
+    padding: 27px;
+  }
+  .tab-res2 {
+    width: 204.9px;
+    height: 73px;
+    float: right;
+  }
+}
+
+/*  ######################## JOURNAL PAGE CSS ############ */
+.journal-header {
+  background-image: url("../Images/DESKTOP/07_JOURNAL/JOURNAL_1.jpg");
+  background-size: cover;
+}
+
+.journal-header .fa-search {
+  color: #fff;
+  font-size: 15px;
+}
+
+.journal-header .fa-angle-down {
+  color: #fff;
+  font-size: 40px;
+  margin-top: 17%;
+}
+
+.journal-header ul {
+  margin-left: 11%;
+}
+
+.journal-header .nav-link {
+  color: #fff !important;
+  font-family: P22Underground;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 6px;
+}
+
+.journal-header .nav-item {
+  margin-right: 20px;
+}
+
+.journal-header nav {
+  padding: 40px 20px;
+}
+
+.journal-header span {
+  font-family: P22Underground;
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: #fff;
+}
+
+.journal-header h2 {
+  font-size: 50px;
+  font-family: lovato;
+  letter-spacing: 25px;
+  color: #fff;
+}
+
+.journal-header .journal-heading {
+  padding: 15% 0% 2% 0%;
+}
+
+.journal-content {
+  background-color: #fbf9f6;
+  padding: 90px 0px 90px 0px;
+}
+
+.journal-content .journal-img1 {
+  width: 554.7px;
+  height: 312px;
+}
+
+.journal-content span {
+  font-family: P22Underground;
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: #aea79e;
+}
+
+.journal-content h5 {
+  font-size: 20px;
+  font-family: lovato;
+  letter-spacing: 4.17px;
+  text-align: justify;
+  color: rgba(0, 0, 0, 0.8);
+  width: 80%;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+.journal-content p {
+  font-size: 20px;
+  font-family: LyonText;
+  letter-spacing: 1.11px;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: justify;
+  width: 74%;
+}
+
+.journal-content a {
+  color: #000;
+  font-family: P22Underground;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 6px;
+}
+
+.journal-content .journal-img2 {
+  width: 545.6px;
+  height: 970px;
+}
+
+.journal-content .journal-img3 {
+  width: 544px;
+  height: 306px;
+}
+
+/* Journal Page Mobile Responsive Css */
+@media (max-width: 575.98px) {
+  .journal-header {
+    background-image: url("../Images/MOBILE/07_JOURNAL_1/JOURNAL_1_1.jpg");
+    height: 500px;
+  }
+  .journal-header h2 {
+    font-size: 28px;
+    letter-spacing: 14px;
+  }
+  .journal-header .journal-heading {
+    padding: 35% 0% 20% 0%;
+  }
+  .journal-content .journalmbl-img1 {
+    width: 350px;
+    height: 360px;
+  }
+  .journal-content h5 {
+    font-size: 16px;
+    letter-spacing: 3.33px;
+    margin-top: 5%;
+    color: #aaa29a;
+  }
+  .journal-content p {
+    font-size: 16px;
+    letter-spacing: 0.89px;
+    width: 85%;
+  }
+  .journal-content .journalmbl-img2 {
+    width: 350px;
+    height: 401.1px;
+  }
+  .journal-content .journalmbl-img3 {
+    width: 350px;
+    height: 225px;
+  }
+}
+
+/*  ######################## RESIDENCE DETAIL PAGE CSS ############ */
+.residence-detail-header {
+  background-image: url("../Images/DESKTOP/06_RESIDENCES_2/RESIDENCES_2_1.jpg");
+  background-size: cover;
+}
+
+.residence-detail-header .fa-search {
+  color: #fff;
+  font-size: 15px;
+}
+
+.residence-detail-header .fa-angle-down {
+  color: #fff;
+  font-size: 40px;
+  margin-top: 17%;
+}
+
+.residence-detail-header ul {
+  margin-left: 11%;
+}
+
+.residence-detail-header .nav-link {
+  color: #fff !important;
+  font-family: P22Underground;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 6px;
+}
+
+.residence-detail-header .nav-item {
+  margin-right: 20px;
+}
+
+.residence-detail-header nav {
+  padding: 40px 20px;
+}
+
+.residence-detail-header span {
+  font-family: P22Underground;
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: #fff;
+}
+
+.residence-detail-header h2 {
+  font-size: 50px;
+  font-family: lovato;
+  letter-spacing: 25px;
+  color: #fff;
+  text-transform: uppercase;
+  padding-top: 15px;
+}
+
+.residence-detail-header .residence-detail-heading {
+  padding: 15% 0% 2% 0%;
+}
+
+.resi-detail {
+  padding: 90px 0px 60px 0px;
+  background-color: #fbf9f6;
+}
+
+.resi-detail p {
+  font-size: 20px;
+  font-family: lovato;
+  letter-spacing: 4.17px;
+  text-align: justify;
+  color: rgba(0, 0, 0, 0.8);
+  width: 75%;
+  margin-left: 13%;
+  margin-right: 13%;
+  text-transform: uppercase;
+}
+
+.resi-detail span {
+  font-size: 16px;
+  font-family: LyonText;
+  font-style: italic;
+  letter-spacing: 1px;
+  color: #000;
+  line-height: 1.38;
+}
+
+.resi-detail a {
+  color: #000;
+  font-family: P22Underground;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 6px;
+  margin-top: 5%;
+}
+
+.resi-des {
+  padding: 30px 0px 60px 0px;
+  background-color: #fbf9f6;
+}
+
+.resi-des p {
+  font-size: 20px;
+  font-family: LyonText;
+  letter-spacing: 1.11px;
+  text-align: justify;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.resi-des .slider-dis {
+  font-size: 16px;
+  font-family: LyonText;
+  font-style: italic;
+  letter-spacing: 1px;
+  color: #000;
+  width: 41%;
+  padding-top: 20px;
+  text-align: justify;
+}
+
+.resi-intro {
+  padding: 30px 0px 60px 0px;
+  background-color: #fbf9f6;
+}
+
+.resi-intro img {
+  width: 602px;
+  height: 160px;
+  margin-left: -28px;
+  margin-top: 80px;
+}
+
+.resi-intro p {
+  font-size: 20px;
+  font-family: lovato;
+  letter-spacing: 4.17px;
+  color: #8f8982;
+  width: 365px;
+  text-align: justify;
+  text-transform: uppercase;
+}
+
+.resi-intro h5 {
+  font-family: P22Underground;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 6px;
+}
+
+.resi-acco {
+  padding: 30px 0px 60px 0px;
+  background-color: #fbf9f6;
+}
+
+.resi-acco h2 {
+  font-size: 50px;
+  font-family: lovato;
+  letter-spacing: 25px;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+}
+
+.resi-acco .img1 {
+  width: 846.4px;
+  height: 732.9px;
+}
+
+.resi-acco .img2 {
+  width: 230px;
+  height: 235px;
+  margin-top: 178%;
+}
+
+.resi-acco p {
+  font-size: 16px;
+  font-family: LyonText;
+  font-style: italic;
+  letter-spacing: 1px;
+  color: #000;
+  margin-top: 20px;
+}
+
+/* Residence Single Page Mobile Responsive css */
+@media (max-width: 575.98px) {
+  .residence-detail-header {
+    height: 800px;
+    background-image: url("../Images/MOBILE/06_RESIDENCES_2/RESIDENCES_2_1.jpg");
+  }
+  .residence-detail-header .fa-angle-down {
+    margin-top: 80%;
+  }
+  .residence-detail-header h2 {
+    font-size: 28px;
+    letter-spacing: 14px;
+    padding-top: 15px;
+  }
+  .residence-detail-header .residence-detail-heading {
+    padding: 80% 0% 80% 0%;
+  }
+  .resi-detail {
+    padding: 30px 0px 30px 0px;
+  }
+  .resi-detail p {
+    font-size: 16px;
+    letter-spacing: 3.33px;
+    width: 90%;
+    margin-left: 4%;
+    margin-right: 5%;
+  }
+  .resi-des {
+    padding: 30px 0px 30px 0px;
+  }
+  .resi-des p {
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 0.89px;
+  }
+  .resi-des .slider-dis {
+    font-size: 16px;
+    letter-spacing: 0.89px;
+    width: 85%;
+    margin-left: 20px;
+  }
+  .resi-intro {
+    padding: 30px 0px 30px 0px;
+  }
+  .resi-intro img {
+    margin-left: -19px;
+    margin-top: 0px;
+    width: 381px;
+    height: 112px;
+  }
+  .resi-acco h2 {
+    font-size: 28px;
+    letter-spacing: 4px;
+  }
+  .resi-acco .img3 {
+    width: 350px;
+    height: 285px;
+  }
+  .resi-acco a {
+    color: #000;
+    font-family: P22Underground;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 6px;
+    margin-top: 5%;
+  }
+}
+
+/*  ######################## SINGLE PRODUCT PAGE CSS ############ */
+.product-detail-header {
+  background-color: rgba(225, 221, 212, 0.68);
+  background-size: cover;
+}
+
+.product-detail-header .fa-search {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 15px;
+}
+
+.product-detail-header ul {
+  margin-left: 11%;
+}
+
+.product-detail-header .nav-link {
+  color: rgba(0, 0, 0, 0.8) !important;
+  font-family: P22Underground;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 6px;
+}
+
+.product-detail-header .nav-item {
+  margin-right: 20px;
+}
+
+.product-detail-header nav {
+  padding: 40px 20px;
+}
+
+.product-detail-header span {
+  font-family: lovato;
+  font-size: 20px;
+  letter-spacing: 10px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.product-detail-header h2 {
+  font-size: 50px;
+  font-family: lovato;
+  letter-spacing: 25px;
+  color: rgba(0, 0, 0, 0.8);
+  text-transform: uppercase;
+}
+
+.product-detail-header .product-detail-heading {
+  padding: 5% 0% 5% 0%;
+}
+
+.product-detail {
+  background-color: rgba(225, 221, 212, 0.68);
+  padding: 60px 0px 0px 0px;
+}
+
+.product-detail span {
+  color: #8f8982;
+  font-family: P22Underground;
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+
+.product-detail p {
+  font-size: 20px;
+  font-family: LyonText;
+  text-align: justify;
+  letter-spacing: 1.11px;
+  color: rgba(0, 0, 0, 0.8);
+  width: 106%;
+}
+
+.product-detail img {
+  width: 170.1px;
+  height: 751px;
+  margin-left: 50px;
+}
+
+.productdetail-img {
+  background-color: rgba(225, 221, 212, 0.68);
+  padding-bottom: 60px;
+}
+
+.productdetail-img img {
+  width: 1346px;
+  height: 488.2px;
+  margin-left: -11px;
+}
+
+.productdetail-img a {
+  color: #000;
+  font-family: P22Underground;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 6px;
+  margin-top: 5%;
+}
+
+/* Product Single Page Mobile Responsive css */
+@media (max-width: 575.98px) {
+  .product-detail-header span {
+    color: rgba(0, 0, 0, 0.8) !important;
+  }
+  .product-detail-header .product-detail-heading {
+    padding: 20% 0% 35% 0%;
+  }
+  .product-detail-header h2 {
+    font-size: 28px;
+    letter-spacing: 14px;
+  }
+  .product-detail-header p {
+    font-size: 16px;
+    text-align: justify;
+    font-family: LyonText;
+    letter-spacing: 0.89px;
+    color: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+  }
+  .product-detail {
+    padding: 0px 0px 0px 0px;
+  }
+  .product-detail .product-description {
+    padding: 0px 30px 0px 30px;
+  }
+  .product-detail p {
+    font-size: 16px;
+    letter-spacing: -0.11px;
+    width: 90%;
+  }
+  .product-detail span {
+    font-size: 9px;
+  }
+  .product-detail img {
+    width: 121.2px;
+    height: 488px;
+    margin-top: -150px;
+  }
+  .product-detail .detail-bg {
+    background-image: url("../Images/DESKTOP/PNG/untitled-1.png");
+    background-size: cover;
+    width: 390px;
+    height: 240px;
+    margin-bottom: 25%;
+  }
+}
+
+/*  ######################## CONTACT PAGE CSS ############ */
+.contact-header {
+  background-image: url("../Images/DESKTOP/09_CONTACT/CONTACT.jpg");
+  background-size: cover;
+}
+
+.contact-header .fa-search {
+  color: #fff;
+  font-size: 15px;
+}
+
+.contact-header .fa-angle-down {
+  color: #fff;
+  font-size: 40px;
+  margin-top: 17%;
+}
+
+.contact-header ul {
+  margin-left: 11%;
+}
+
+.contact-header .nav-link {
+  color: #fff !important;
+  font-family: P22Underground;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 6px;
+}
+
+.contact-header .nav-item {
+  margin-right: 20px;
+}
+
+.contact-header nav {
+  padding: 40px 20px;
+}
+
+.contact-header span {
+  font-family: P22Underground;
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: #fff;
+}
+
+.contact-header h2 {
+  font-size: 50px;
+  font-family: lovato;
+  letter-spacing: 25px;
+  color: #fff;
+  text-transform: uppercase;
+  padding-top: 15px;
+}
+
+.contact-header .contact-heading {
+  padding: 15% 0% 2% 0%;
+}
+
+.contact-form {
+  background-color: #fbf9f6;
+  padding: 60px 0px 60px 0px;
+}
+
+.contact-form h2 {
+  font-size: 50px;
+  font-family: lovato;
+  letter-spacing: 25px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.contact-form p {
+  font-size: 20px;
+  font-family: LyonText;
+  letter-spacing: 1.11px;
+  color: rgba(0, 0, 0, 0.8);
+  margin-top: 20px;
+}
+
+.contact-form form {
+  padding-top: 30px;
+}
+
+.contact-form form input {
+  border-bottom: 1px solid #979797;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-radius: 0px;
+  background-color: initial;
+  margin-top: 30px;
+  padding-left: 0px;
+}
+
+.contact-form form input::-webkit-input-placeholder {
+  font-family: lovato;
+  font-size: 20px;
+  letter-spacing: 4.17px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.contact-form form input:-ms-input-placeholder {
+  font-family: lovato;
+  font-size: 20px;
+  letter-spacing: 4.17px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.contact-form form input::-ms-input-placeholder {
+  font-family: lovato;
+  font-size: 20px;
+  letter-spacing: 4.17px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.contact-form form input::placeholder {
+  font-family: lovato;
+  font-size: 20px;
+  letter-spacing: 4.17px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.contact-form form .enquiry {
+  border: 1px solid #979797;
+  height: 200px;
+  margin-top: 0px;
+}
+
+.contact-form form label {
+  font-family: lovato;
+  font-size: 20px;
+  letter-spacing: 4.17px;
+  color: rgba(0, 0, 0, 0.8);
+  margin-top: 30px;
+}
+
+.contact-form form button {
+  width: 1120px;
+  height: 48px;
+  padding: 8px 28px 7px 31px;
+  border: solid 1px #979797;
+  font-family: lovato;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 4.17px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+/* Contact Page Mobile Responsive css */
+@media (max-width: 575.98px) {
+  .contact-header {
+    background-image: url("../Images/MOBILE/09_CONTACT/CONTACT_1.jpg");
+    height: 500px;
+  }
+  .contact-header .contact-heading {
+    padding: 25% 0% 20% 0%;
+  }
+  .contact-header h2 {
+    font-size: 28px;
+    letter-spacing: 14px;
+    margin-top: 20px;
+  }
+  .contact-form h2 {
+    font-size: 24px;
+    letter-spacing: 7px;
+  }
+  .contact-form p {
+    font-size: 16px;
+    letter-spacing: 0.89px;
+    text-align: justify;
+    padding: 0px 20px 0px 20px;
+  }
+  .contact-form form {
+    padding-top: 0px;
+  }
+  .contact-form form input {
+    width: -webkit-fill-available;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .contact-form form label {
+    margin-left: 20px;
+  }
+  .contact-form form button {
+    width: 312px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

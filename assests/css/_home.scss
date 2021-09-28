@@ -1,0 +1,866 @@
+/*  ######################## HOME PAGE CSS ############ */
+
+/* Header Css */
+.header {
+    background-image: url("../Images/DESKTOP/01_HOME/HOME_1.jpg");
+    height: 700px;
+    background-size: cover;
+    .fa-search {
+        color: $white;
+        font-size: 15px;
+    }
+    .fa-angle-down {
+        color: $white;
+        font-size: 40px;
+        margin-top: 13%;
+    }
+    ul {
+        margin-left: 18%;
+    }
+    .nav-link {
+        color: $white !important;
+        font-family: $secondfamily;
+        font-size: 12px;
+        font-weight: 900;
+        letter-spacing: 6px;
+    }
+    .nav-item {
+        margin-right: 20px;
+    }
+    nav {
+        padding: 40px 20px;
+    }
+    img {
+        width: 200px;
+        height: 200px;
+        float: center;
+        margin-top: 11%;
+    }
+}
+
+
+.desktop-nav {
+    display: block;
+
+    .overlay {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0, 1);
+        overflow-x: hidden;
+        transition: 0.5s;
+      }
+      .overlay-content {
+        position: relative;
+        top: 14%;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+        input {
+            font-size: 28px;
+            font-family: $headingfamily;
+            letter-spacing: 14px;
+            color: $white;
+            border-bottom: 1px solid $white;
+            border-top: 0px;
+            border-left: 0px;
+            border-right: 0px;
+            background-color: unset;
+            text-align: center;
+            margin-left: 12%;
+            width: 74%;
+            padding: 20px;
+            border-radius: 0px;
+            margin-top: 14%;
+        }
+      }
+      .overlay a {
+        padding: 8px;
+        text-decoration: none;
+        font-size: 28px;
+        color: $white;
+        display: block;
+        transition: 0.3s;
+        letter-spacing: 14px;
+        font-family: $headingfamily;
+      }
+      .extra-menu {
+          a {
+              font-size: 12px;
+              font-family: $secondfamily;
+              letter-spacing: 6px;
+              text-align: center;
+          }
+      }
+      .overlay a:hover, .overlay a:focus {
+        color: #f1f1f1;
+      }
+      .overlay .closebtn {
+        position: absolute;
+        top: 2px;
+        right: 78%;
+        font-size: 60px;
+      }
+      .overlay .closebtn2 {
+        position: absolute;
+        top: 0px;
+        right: 4%;
+        font-size: 60px;
+      }
+
+}
+
+.mbl-nav {
+    display: none;
+}
+
+/* Introduction Section css */ 
+.introduction {
+    padding: 90px 0px 30px 0px;
+    background-color: $bodybackground;
+    span {
+        font-family: $secondfamily;
+        font-size: 12px;
+        letter-spacing: 3px;
+        color: $secondcolor;
+    }
+    h2 {
+        font-size: 50px;
+        font-family: $headingfamily;
+        letter-spacing: 20px;
+        color: $defaultcolor;
+        padding: 20px 0px 20px 0px;
+    }
+    p {
+        font-size: 20px;
+        font-family: $textfamily;
+        color: $defaultcolor;
+        width: 58%;
+        margin-left: 21%;
+        margin-right: 24%;
+        text-align: left;
+        text-align: justify;
+    }
+    a {
+        color: $black;
+        font-family: $secondfamily;
+        font-size: 12px;
+        font-weight: 900;
+        letter-spacing: 6px;
+    }
+    a:hover {
+        color: $black;
+    }
+    .img-intro1 {
+        width: 530.3px;
+        height: 502px;
+        margin-top: 30%;
+    }
+    .img-intro2 {
+        width: 121%;
+        height: 476px;
+        display: block;
+    }
+    .img-intro3 {
+        display: none;
+    }
+    .img-intro4 {
+        display: block;
+        width: 846px;
+        height: 475.9px;
+    }
+    .img-intro5 {
+        display: none;
+    }
+    .img-count {
+        display: block;
+    }
+    img {
+        width: 560px;
+        height: 160px;
+    }
+    .numbrs {
+        display: -webkit-inline-box;
+        
+        p {
+            margin-left: 0%;
+            margin-right: 0%;
+            font-size: 16px;
+            font-family: $textfamily;
+            font-style: italic;
+            color: $black;
+        }
+        span {
+            font-size: 12px;
+            font-family: $secondfamily;
+            font-weight: 500;
+            color: $black;
+            margin-right: 20px;
+        }
+    }
+}
+
+/* Our Story Section css */
+.our-story {
+    display: block;
+}
+.story-content {
+    display: block;
+}
+.story-mbl {
+    display: none;
+}
+.our-story {
+    background-image: url("../Images/DESKTOP/01_HOME/HOME_6.jpg");
+    background-size: cover;
+    padding: 190px 0px 190px 0px;
+    span {
+        font-family: $secondfamily;
+        font-size: 12px;
+        letter-spacing: 3px;
+        color: $white;
+    }
+    h2 {
+        font-size: 50px;
+        font-family: $headingfamily;
+        letter-spacing: 20px;
+        padding: 20px 0px 20px 0px;
+        color: $white;
+    }
+    p {
+        font-size: 20px;
+        font-family: $textfamily;
+        width: 58%;
+        margin-left: 22%;
+        margin-right: 24%;
+        text-align: left;
+        color: rgba(255, 255, 255, 0.8);
+        text-align: justify;
+    }
+    a {
+        color: $white;
+        font-family: $secondfamily;
+        font-size: 12px;
+        font-weight: 900;
+        letter-spacing: 6px;
+    }
+    a:hover {
+        color: $white;
+    }
+}
+.story-content{
+    background-color: $bodybackground;
+    span {
+        font-size: 12px;
+        font-family: $secondfamily;
+        font-weight: 500;
+        color: $black;
+        margin-right: 20px;
+    }
+    img {
+        width: 848px;
+        height: 473px;
+    }
+    .numbrs {
+        display: -webkit-inline-box;
+        p {
+            margin-left: 0%;
+            margin-right: 0%;
+            font-size: 16px;
+            font-family: $textfamily;
+            font-style: italic;
+            color: $black;
+        }
+        span {
+            font-size: 12px;
+            font-family: $secondfamily;
+            font-weight: 500;
+            color: $black;
+            margin-right: 20px;
+        }
+    }
+    .intro-story {
+        img {
+            width: 470.4px;
+            height: 633px;
+        }
+        p {
+            font-size: 20px;
+            font-family: $headingfamily;
+            letter-spacing: 4.17px;
+            color: $secondcolor;
+            width: 365px;
+            padding-top: 50px;
+            text-align: justify;
+            text-transform: uppercase;
+        }
+        h5 {
+            font-family: $secondfamily;
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: 6px;
+        }
+    }
+}
+/* Residence Section css */
+
+.residence-mbl {
+    display: none;
+}
+
+.our-residence {
+    padding: 0px 0px 40px 0px;
+    background-color: $bodybackground;
+    display: block;
+    .bg-residence {
+        background-image: url("../Images/DESKTOP/01_HOME/HOME_9.jpg");
+        height: 600px;
+        background-size: cover;
+        object-fit: contain;
+    }
+    span {
+        font-family: $secondfamily;
+        font-size: 12px;
+        letter-spacing: 3px;
+        color: $secondcolor;
+    }
+    h2 {
+        font-size: 50px;
+        font-family: $headingfamily;
+        letter-spacing: 14px;
+        color: $defaultcolor;
+        padding: 20px 0px 20px 0px;
+    }
+    p {
+        font-size: 20px;
+        font-family: $textfamily;
+        color: $defaultcolor;
+        width: 58%;
+        margin-left: 24%;
+        margin-right: 24%;
+        text-align: left;
+        text-align: justify;
+    }
+    a {
+        color: $black;
+        font-family: $secondfamily;
+        font-size: 12px;
+        font-weight: 900;
+        letter-spacing: 6px;
+    }
+    a:hover {
+        color: $black;
+    }
+    .residence-intro{
+        margin-top: 90px;
+        img {
+            width: 608px;
+            height: 335.9px;
+            margin-left: -117px;
+        }
+        p {
+            font-size: 20px;
+            font-family: $headingfamily;
+            letter-spacing: 4.17px;
+            color: $secondcolor;
+            width: 365px;
+            padding-top: 10px;
+            margin-left: 0px;
+            margin-right: 0px;
+            text-align: justify;
+            text-transform: uppercase;
+        }
+        h5 {
+            font-family: $secondfamily;
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: 6px;
+        }
+    }
+    .numbrs {
+        display: -webkit-inline-box;
+        p {
+            margin-left: 0%;
+            margin-right: 0%;
+            font-size: 16px;
+            font-family: $textfamily;
+            font-style: italic;
+            color: $black;
+        }
+        span {
+            font-size: 12px;
+            font-family: $secondfamily;
+            font-weight: 500;
+            color: $black;
+            margin-right: 20px;
+        }
+    }
+}
+
+/* Connect Section css */
+
+.connect {
+    background-color: rgba(170, 162, 154, 0.3);
+    padding: 90px 0px 90px 0px;
+    span {
+        font-family: $secondfamily;
+        font-size: 12px;
+        letter-spacing: 3px;
+        color: #484133;
+    }
+    h2 {
+        font-size: 50px;
+        font-family: $headingfamily;
+        letter-spacing: 25px;
+        color: $defaultcolor;
+        padding: 20px 0px 20px 0px;
+    }
+    img {
+        width: 100%;
+    }
+    a {
+        color: $black;
+        font-family: $secondfamily;
+        font-size: 12px;
+        font-weight: 900;
+        letter-spacing: 6px;
+    }
+}
+.insta-hide {
+    display: block;
+}
+
+/* Footer Section css */
+
+.footer {
+    background-color: #3a352d;
+    padding: 90px 0px 90px 0px;
+    a {
+        color: $white;
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 6px;
+        font-family: $secondfamily;
+        display: flex;
+        margin-bottom: 10px;
+        text-decoration: none;
+    }
+    a:hover {
+        color: $white;
+    }
+    p {
+        color: $white;
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 6px;
+        font-family: $secondfamily;
+        line-height: 2;
+    }
+    .footer-bottom {
+        p {
+            font-size: 16px;
+            font-style: italic;
+            font-family: $textfamily;
+            letter-spacing: 1px;
+            font-weight: normal;
+            line-height: 1.38;
+            width: 80%;
+        }
+        input {
+            padding: 14px 0 14px 17px;
+            border: solid 1px $white;
+            font-size: 10px;
+            font-family: $textfamily;
+            letter-spacing: 3px;
+            color: $white !important;
+            background-color: unset;
+            margin-right: 0px !important;
+            border-radius: 2px 0px 0px 2px;
+            margin-top: -1px;
+            text-transform: uppercase;
+            width: 69%;
+        }
+        button {
+            padding: 8px 17px 8px 17px;
+            border: solid 1px $white;
+            font-size: 10px;
+            font-family: $textfamily;
+            letter-spacing: 3px;
+            color: $white;
+            margin-top: -1px;
+            border-radius: 0px 2px 2px 0px;
+            text-transform: uppercase;
+            width: 26%;
+        }
+    }
+}
+.footer {
+    display: block;
+}
+.footer-mbl {
+    display: none;
+}
+
+
+
+/* Home Page Responsive Mobile Css */
+
+@media (max-width: 575.98px) {
+    .desktop-nav {
+        display: none;
+    }
+    .mbl-nav {
+        display: block;
+        padding: 20px 20px 0px 20px;
+        .overlay {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: rgb(0,0,0);
+            background-color: rgba(0,0,0, 0.9);
+            overflow-x: hidden;
+            transition: 0.5s;
+          }
+          .overlay-content {
+            position: relative;
+            top: 25%;
+            width: 100%;
+            text-align: center;
+            margin-top: 30px;
+            input {
+                font-size: 28px;
+                font-family: $headingfamily;
+                letter-spacing: 14px;
+                color: $white;
+                border-bottom: 1px solid $white;
+                border-top: 0px;
+                border-left: 0px;
+                border-right: 0px;
+                background-color: unset;
+                text-align: center;
+                margin-left: 12%;
+                width: 74%;
+                padding: 20px;
+                border-radius: 0px;
+                margin-top: 30%;
+            }
+          }
+          .overlay a {
+            padding: 8px;
+            text-decoration: none;
+            font-size: 28px;
+            color: $white;
+            display: block;
+            transition: 0.3s;
+            letter-spacing: 14px;
+            font-family: $headingfamily;
+          }
+          .extra-menu {
+              a {
+                  font-size: 12px;
+                  font-family: $secondfamily;
+                  letter-spacing: 6px;
+                  text-align: center;
+              }
+          }
+          .overlay a:hover, .overlay a:focus {
+            color: #f1f1f1;
+          }
+          .overlay .closebtn {
+            position: absolute;
+            top: 2px;
+            right: 78%;
+            font-size: 60px;
+          }
+          .overlay .closebtn2 {
+            position: absolute;
+            top: 0px;
+            right: 8%;
+            font-size: 60px;
+          }
+    }
+
+    .header {
+      background-image: url("../Images/MOBILE/01_HOME/HOME_1.jpg");
+      .fa-angle-down {
+        margin-top: 70%;
+    }
+      img {
+        width: 150px;
+        height: 150px;
+        margin-top: 50%;
+      }
+    }
+    .introduction {
+        padding: 60px 0px 0px 0px;
+        h2 {
+            font-size: 28px;
+            letter-spacing: 14px;
+        }
+        p {
+            font-size: 16px;
+            padding: 20px 40px;
+            margin-left: 0%;
+            margin-right: 0%;
+            width: 350px;
+        }
+        .img-intro1 {
+            margin-top: -20%;
+            margin-left: 15px;
+            width: 269.4px;
+            height: 255px;
+        }
+        .img-intro2 {
+            display: none;
+        }
+        .img-intro3 {
+            display: block;
+            width: 350px;
+            height: 400px;
+          margin-bottom: 30px;
+        }
+        .img-intro4 {
+            display: none;
+        }
+        .img-intro5 {
+            display: block;
+            width: 350px;
+            height: 400px;
+        }
+        .img-count {
+            display: none;
+        }
+        .numbrs {
+            display: none;
+        }
+        img {
+            width: 282px;
+            height: 88px;
+            float: right;
+        }
+    }
+    .our-story {
+        display: none;
+    }
+    .story-content {
+        display: none;
+    }
+    .story-mbl {
+        background-color: $bodybackground;
+        padding-bottom: 60px;
+        display: block;
+        h2 {
+            font-size: 28px;
+            letter-spacing: 14px;
+            font-family: $headingfamily;
+            color: $defaultcolor;
+            padding-top: 10px;
+            padding-bottom: 40px;
+        }
+        span {
+            font-family: $secondfamily;
+            font-size: 12px;
+            letter-spacing: 3px;
+            color: $secondcolor;
+        }
+        p {
+            font-family: $textfamily;
+            font-size: 16px;
+            padding: 20px 40px;
+            margin-left: 0%;
+            margin-right: 0%;
+            width: 350px;
+            text-align: justify;
+        }
+        img {
+            width: 350px;
+            height: 300px;
+        }
+        a {
+            color: #000;
+            font-family: $secondfamily;
+            font-size: 12px;
+            font-weight: 900;
+            letter-spacing: 6px;
+        }
+        a:hover {
+            color: #000;
+        }
+        .storymbl-intro {
+            p {
+                font-size: 16px;
+                font-family: $headingfamily;
+                letter-spacing: 3.33px;
+                color: #8f8982;
+                padding: 20px 30px 10px 30px;
+                text-transform: uppercase;
+            }
+            h5 {
+                font-family: $secondfamily;
+                font-size: 12px;
+                font-weight: 700;
+                letter-spacing: 6px;
+                padding: 0px 30px 0px 30px;
+            }
+        }
+        .storymbl-introimg {
+            width: auto;
+            height: 300px;
+            float: right;
+            margin-top: 30px;
+        }
+    }
+    .our-residence {
+        display: none;
+    }
+    .residence-mbl {
+        background-color: $bodybackground;
+        padding-bottom: 60px;
+        display: block;
+        h2 {
+            font-size: 28px;
+            letter-spacing: 14px;
+            font-family: $headingfamily;
+            color: $defaultcolor;
+            padding-top: 10px;
+            padding-bottom: 40px;
+        }
+        span {
+            font-family: $secondfamily;
+            font-size: 12px;
+            letter-spacing: 3px;
+            color: $secondcolor;
+        }
+        p {
+            font-family: $textfamily;
+            font-size: 16px;
+            padding: 20px 40px;
+            margin-left: 0%;
+            margin-right: 0%;
+            width: 350px;
+            text-align: justify;
+        }
+        img {
+            width: 350px;
+            height: 300px;
+        }
+        a {
+            color: #000;
+            font-family: $secondfamily;
+            font-size: 12px;
+            font-weight: 900;
+            letter-spacing: 6px;
+        }
+        a:hover {
+            color: Black;
+        }
+        .resi-intro {
+            font-size: 16px;
+            font-family: $headingfamily;
+            letter-spacing: 3.33px;
+            color: $secondcolor;
+            padding: 20px 30px 10px 30px;
+            text-transform: uppercase;
+        }
+        h5 {
+            font-family: $secondfamily;
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: 6px;
+            padding: 0px 30px 0px 30px;
+        }
+    }
+    .insta-hide {
+        display: none;
+    }
+    .connect h2 {
+        font-size: 28px;
+    }
+    .footer {
+        display: none;
+    }
+    .footer-mbl {
+        display: block;
+        padding: 50px 0px 50px 0px;
+        background-color: #3a352d;
+        a {
+            color: $white;
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 6px;
+            font-family: $secondfamily;
+            margin-bottom: 10px;
+            text-decoration: none;
+            display: block;
+            line-height: 2.5;
+        }
+        .social-icon {
+            padding: 30px 0px 30px 0px;
+        }
+        i {
+            color: $white;
+            font-size: 20px;
+            margin-right: 30px;
+            margin-left: 20px;
+        }
+        hr {
+            color: $white;
+        }
+        .newsletter {
+            padding-bottom: 30px;
+            p {
+                font-size: 14px;
+                font-style: italic;
+                font-family: $textfamily;
+                color: $white;
+                float: left;
+            }
+            input {
+                padding: 15px 0 15px 17px;
+                border: solid 1px $white;
+                font-size: 12px;
+                letter-spacing: 3px;
+                font-family: $textfamily;
+                color: $white !important;
+                background-color: unset;
+                margin-right: 0px !important;
+                border-radius: 2px 2px 0px 0px;
+                text-transform: uppercase;
+                width: 100%;
+            }
+            button {
+                padding: 15px 17px 15px 17px;
+                border: solid 1px $white;
+                font-size: 12px;
+                letter-spacing: 3px;
+                font-family: $textfamily;
+                color: $white;
+                border-radius: 0px 0px 2px 2px;
+                float: left;
+                width: 100%;
+                text-align: left;
+                text-transform: uppercase;
+            }
+        }
+        .footermbl-bottom {
+            p {
+                font-size: 8px;
+                font-family: $secondfamily;
+                letter-spacing: 4px;
+                color: $white;
+            }
+        }
+    }
+ }
+
+
+
+
+

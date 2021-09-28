@@ -1,0 +1,279 @@
+/*  ######################## RESIDENCE PAGE CSS ############ */
+
+.residence-header {
+    background-image: url("../Images/DESKTOP/05_RESIDENCES/RESIDENCES_1.jpg");
+    background-size: cover;
+    .fa-search {
+        color: $white;
+        font-size: 15px;
+    }
+    .fa-angle-down {
+        color: $white;
+        font-size: 40px;
+        margin-top: 17%;
+    }
+    ul {
+        margin-left: 11%;
+    }
+    .nav-link {
+        color: $white !important;
+        font-family: $secondfamily;
+        font-size: 12px;
+        font-weight: 900;
+        letter-spacing: 6px;
+    }
+    .nav-item {
+        margin-right: 20px;
+    }
+    nav {
+        padding: 40px 20px;
+    }
+    span {
+        font-family: $secondfamily;
+        font-size: 12px;
+        letter-spacing: 3px;
+        color: $white;
+    }
+    h2 {
+        font-size: 50px;
+        font-family: $headingfamily;
+        letter-spacing: 25px;
+        color: $white;
+        padding-top: 15px;
+    }
+    .residence-heading {
+        padding: 15% 0% 2% 0%;
+    }
+}
+
+.stay-mas {
+    background-color: $bodybackground;
+    padding: 60px 0px 30px 0px;
+    span {
+        font-family: $secondfamily;
+        font-size: 12px;
+        letter-spacing: 4px;
+        text-align: center;
+        color: #aea79e;
+    }
+    h2 {
+        font-size: 50px;
+        font-family: $headingfamily;
+        letter-spacing: 25px;
+        color: $defaultcolor;
+        text-align: center;
+        padding-top: 1%;
+    }
+    p {
+        font-size: 20px;
+        font-family: $textfamily;
+        letter-spacing: 1.11px;
+        color: $defaultcolor;
+        text-align: justify;
+        width: 97%;
+    }
+}
+
+.stay-category {
+    background-color: $bodybackground;
+    padding: 30px 0px 60px 0px;
+    span {
+        color: #aea79e;
+        font-size: 12px;
+        font-family: $secondfamily;
+        letter-spacing: 5px;
+    }
+    h4 {
+        font-size: 20px;
+        font-family: $headingfamily;
+        letter-spacing: 4.17px;
+        color: $defaultcolor;
+        padding-top: 2%;
+        text-transform: uppercase;
+    }
+    a {
+        color: $black;
+        font-family: $secondfamily;
+        font-size: 12px;
+        font-weight: 900;
+        letter-spacing: 6px;
+    }
+}
+.stayimg-section {
+    background-color: $bodybackground;
+    padding: 30px 0px 60px 0px;
+    .stayimg1 {
+        width: 100%;
+        height: 652px;
+        margin-left: -2%;
+    }
+    .stayimg2 {
+        width: 292px;
+        height: 225.6px;
+        margin-top: 50%;
+        margin-left: 20%;
+    }
+    span {
+        font-family: P22Underground;
+        font-size: 12px;
+        letter-spacing: 3px;
+    }
+
+    .stay-intro {
+        margin-top: 5%;
+        p {
+            font-size: 20px;
+            font-family: $headingfamily;
+            letter-spacing: 4.17px;
+            text-align: justify;
+            color: $secondcolor;
+            text-transform: uppercase;
+        }
+        h5 {
+            font-family: $secondfamily;
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: 6px;
+        }
+    }
+    .stayimg3 {
+        width: 686px;
+        height: 466.7px;
+        margin-left: 17%;
+    }
+    .stayimg4 {
+        width: 523px;
+        height: 348.7px;
+        margin-top: -28px;
+    }
+    .stay-point {
+        margin-top: 13%;
+    }
+    .numbrs {
+        display: flex;
+        
+        p {
+            margin-left: 0%;
+            margin-right: 0%;
+            font-size: 16px;
+            font-family: $textfamily;
+            font-style: italic;
+            color: #000;
+        }
+        span {
+            font-size: 12px;
+            font-family: $secondfamily;
+            font-weight: 500;
+            color: #000;
+            margin-right: 20px;
+        }
+    }
+}
+.accomodation {
+    background-color: $bodybackground;
+    padding: 30px 0px 60px 0px;
+    h2 {
+        font-size: 50px;
+        font-family: $headingfamily;
+        letter-spacing: 25px;
+        color: $defaultcolor;
+        text-align: center;
+    }
+    .acco-img {
+        width: 1057px;
+        height: 753.2px;
+        margin-top: 5%;
+    }
+    .acco-img1 {
+        width: 230px;
+        height: 235px;
+        margin-top: -20%;
+    }
+    .acco-link {
+        float: right;
+        margin-top: -42%;
+        text-transform: uppercase;
+        p {
+            font-size: 20px;
+            text-align: justify;
+            letter-spacing: 4.17px;
+            font-family: $headingfamily;
+            line-height: 1px;
+        }
+        a {
+            color: #000;
+            font-family: $secondfamily;
+            font-size: 12px;
+            font-weight: 900;
+            letter-spacing: 6px;
+        }
+    }
+}
+
+
+/* Residence Page Mobile responsive Css */  
+@media (max-width: 575.98px) {
+.residence-header {
+    background-image: url("../Images/MOBILE/05_RESIDENCES_1/RESIDENCES_1_1.jpg");
+    height: 600px;
+    .fa-angle-down {
+        margin-top: 48%;
+    }
+    .residence-heading {
+        padding: 63% 0% 20% 0%;
+    }
+    h2 {
+        font-size: 28px;
+        letter-spacing: 14px;
+        margin-top: 15px;
+    }
+}
+.stay-mas {
+    h2 {
+        font-size: 28px;
+        letter-spacing: 18px;
+    }
+    p {
+        font-size: 16px;
+        font-family: $textfamily;
+        width: 100%;
+        padding: 0px 30px 0px 30px;
+    }
+    img {
+        height: 200px;
+        width: 300px;
+    }
+    a {
+        color: #000;
+        font-family: $secondfamily;
+        font-size: 12px;
+        font-weight: 900;
+        letter-spacing: 6px;
+    }
+}
+    .cta-box {
+        padding: 30px;
+        border-top: 1px solid #8f8982;
+        border-bottom: 1px solid #8f8982;
+    }
+    .stayimg1-mbl {
+        width: 350px;
+        height: 400px;
+    }
+    .stayimg-desmbl{
+        font-size: 16px;
+        font-family: $textfamily;
+        font-style: italic;
+        letter-spacing: 1px;
+        color: $black;
+        padding: 27px;
+    }
+    .tab-res2 {
+        width: 204.9px;
+        height: 73px;
+        float: right;
+    }
+
+}
+
+

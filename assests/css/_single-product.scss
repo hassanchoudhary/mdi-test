@@ -1,0 +1,135 @@
+/*  ######################## SINGLE PRODUCT PAGE CSS ############ */
+.product-detail-header {
+    background-color: rgba(225, 221, 212, 0.68);
+    background-size: cover;
+    .fa-search {
+        color: $defaultcolor;
+        font-size: 15px;
+    }
+    ul {
+        margin-left: 11%;
+    }
+    .nav-link {
+        color: $defaultcolor !important;
+        font-family: $secondfamily;
+        font-size: 12px;
+        font-weight: 900;
+        letter-spacing: 6px;
+    }
+    .nav-item {
+        margin-right: 20px;
+    }
+    nav {
+        padding: 40px 20px;
+    }
+    span {
+        font-family: $headingfamily;
+        font-size: 20px;
+        letter-spacing: 10px;
+        color: $defaultcolor;
+    }
+    h2 {
+        font-size: 50px;
+        font-family: $headingfamily;
+        letter-spacing: 25px;
+        color: $defaultcolor;
+        text-transform: uppercase;
+    }
+    .product-detail-heading {
+        padding: 5% 0% 5% 0%;
+    }
+}
+.product-detail {
+    background-color: rgba(225, 221, 212, 0.68);
+    padding: 60px 0px 0px 0px;
+    span {
+        color: $secondcolor;
+        font-family: $secondfamily;
+        font-size: 12px;
+        letter-spacing: 5px;
+    }
+    p {
+        font-size: 20px;
+        font-family: $textfamily;
+        text-align: justify;
+        letter-spacing: 1.11px;
+        color: $defaultcolor;
+        width: 106%;
+    }
+    img {
+        width: 170.1px;
+        height: 751px;
+        margin-left: 50px;
+    }
+}
+.productdetail-img{
+    background-color: rgba(225, 221, 212, 0.68);
+    padding-bottom: 60px;
+    img {
+        width: 1346px;
+        height: 488.2px;
+        margin-left: -11px;
+    }
+    a {
+        color: $black;
+        font-family: $secondfamily;
+        font-size: 12px;
+        font-weight: 900;
+        letter-spacing: 6px;
+        margin-top: 5%;
+    }
+}
+
+/* Product Single Page Mobile Responsive css */
+
+@media (max-width: 575.98px) {
+
+    .product-detail-header {
+        span {
+            color: rgba(0, 0, 0, 0.8) !important;
+        }
+        .product-detail-heading {
+            padding: 20% 0% 35% 0%;
+        }
+        h2 {
+            font-size: 28px;
+            letter-spacing: 14px;
+        }
+        p {
+            font-size: 16px;
+            text-align: justify;
+            font-family: $textfamily;
+            letter-spacing: 0.89px;
+            color: $defaultcolor;
+            padding: 30px;
+        }
+    }
+    .product-detail {
+        padding: 0px 0px 0px 0px;
+        .product-description {
+            padding: 0px 30px 0px 30px;
+        }
+        p {
+            font-size: 16px;
+            letter-spacing: -0.11px;
+            width: 90%;
+        }
+        span {
+            font-size: 9px;
+        }
+        img {
+            width: 121.2px;
+            height: 488px;
+            margin-top: -150px;
+        }
+        .detail-bg {
+            background-image: url("../Images/DESKTOP/PNG/untitled-1.png");
+            background-size: cover;
+            width: 390px;
+            height: 240px;
+            margin-bottom: 25%;
+        }
+    }
+}
+
+

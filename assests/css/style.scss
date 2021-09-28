@@ -1,0 +1,31 @@
+/*  Font Family   */
+
+@font-face {
+    font-family: 'lovato';
+    src: url('../fonts/Lovato-Regular.otf');
+}
+@font-face {
+    font-family: 'LyonText';
+    src: url('../fonts/Lyon\ Text-Regular.otf'),
+         url('../fonts/Lyon\ Text-Regular\ Italic.otf');
+}
+@font-face {
+    font-family: 'P22Underground';
+    src: url('../fonts/P22UndergroundPro-Demi.otf'),
+         url('../fonts/P22UndergroundPro-Heavy.otf'),
+         url('../fonts/P22UndergroundPro-Medium.otf');
+}
+
+
+$headingfamily: lovato;
+$textfamily: LyonText;
+$secondfamily: P22Underground;
+@import 'colors';
+@import 'home';
+@import 'story';
+@import 'wines';
+@import 'residence';
+@import 'journal';
+@import 'residence-detail';
+@import 'single-product';
+@import 'contact';

@@ -1,0 +1,513 @@
+/*  ######################## Story PAGE CSS ############ */
+
+.story-header {
+    background-image: url("../Images/DESKTOP/04_STORY/STORY_1.jpg");
+    background-size: cover;
+    .fa-search {
+        color: $white;
+        font-size: 15px;
+    }
+    .fa-angle-down {
+        color: $white;
+        font-size: 40px;
+        margin-top: 17%;
+    }
+    ul {
+        margin-left: 11%;
+    }
+    .nav-link {
+        color: $white !important;
+        font-family: $secondfamily;
+        font-size: 12px;
+        font-weight: 900;
+        letter-spacing: 6px;
+    }
+    .nav-item {
+        margin-right: 20px;
+    }
+    nav {
+        padding: 40px 20px;
+    }
+    span {
+        font-family: $secondfamily;
+        font-size: 12px;
+        letter-spacing: 3px;
+        color: $white;
+    }
+    h2 {
+        font-size: 50px;
+        font-family: $headingfamily;
+        letter-spacing: 25px;
+        color: $white;
+        padding-top: 15px;
+    }
+    .story-heading {
+        padding: 15% 0% 2% 0%;
+    }
+}
+
+/* Story content Css  */ 
+
+.storypage-content {
+    padding: 90px 0px 60px 0px;
+    background-color: $bodybackground;
+    .st-des {
+        font-size: 20px;
+        font-family: $headingfamily;
+        letter-spacing: 4.17px;
+        color: $defaultcolor;
+        width: 74%;
+        margin-left: 13%;
+        margin-right: 13%;
+        text-align: justify;
+        text-transform: uppercase;
+    }
+    p {
+        font-size: 20px;
+        font-family: $textfamily;
+        color: $defaultcolor;
+        letter-spacing: 1.11px;
+        width: 95%;
+        text-align: justify;
+    }
+    .numbrs {
+        display: -webkit-inline-box;
+        p {
+            margin-left: 0%;
+            margin-right: 0%;
+            font-size: 16px;
+            font-family: $textfamily;
+            font-style: italic;
+            color: $black;
+            text-align: justify;
+        }
+        span {
+            font-size: 12px;
+            font-family: $secondfamily;
+            font-weight: 500;
+            color: $black;
+            margin-right: 20px;
+        }
+    }
+}
+
+/* CAVE & VINEYARD Section Css  */
+.cave {
+    padding: 30px 0px 90px 0px;
+    background-color: $bodybackground;
+    span {
+        font-family: $secondfamily;
+        font-size: 12px;
+        letter-spacing: 3px;
+        color: $secondcolor;
+    }
+    h2 {
+        font-size: 50px;
+        font-family: $headingfamily;
+        letter-spacing: 25px;
+        color: $defaultcolor;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .cave-des {
+        font-size: 20px;
+        font-family: $textfamily;
+        color: $defaultcolor;
+        letter-spacing: 1.11px;
+        width: 67%;
+        margin-left: 17%;
+        margin-right: 17%;
+        text-align: justify;
+    }
+    .slider-dis {
+        font-size: 16px;
+        font-family: $textfamily;
+        font-style: italic;
+        letter-spacing: 1px;
+        color: $black;
+        width: 41%;
+        padding-top: 30px;
+        text-align: justify;
+    }
+    .cave-intro {
+        img {
+            width: 90%;
+            height: 70%;
+            margin-top: 15%;
+        }
+        p {
+            font-size: 20px;
+            font-family: $headingfamily;
+            letter-spacing: 4.17px;
+            color: $secondcolor;
+            width: 365px;
+            text-align: justify;
+            text-transform: uppercase;
+        }
+        h5 {
+            font-family: $secondfamily;
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: 6px;
+        }
+        .caveintro-img2 {
+            height: auto;
+            width: 121%;
+        }
+    }
+    .caveintro-img3 {
+        width: 117%;
+        height: 43%;
+        margin-left: -21%;
+    }
+    .caveintro-img4 {
+        height: 27%;
+        width: 100%;
+    }
+    .numbrs {
+        display: flex;
+        margin-top: 20px;
+        p {
+            margin-left: 0%;
+            margin-right: 0%;
+            font-size: 16px;
+            font-family: $textfamily;
+            font-style: italic;
+            color: $black;
+            text-align: justify;
+        }
+        span {
+            font-size: 12px;
+            font-family: $secondfamily;
+            font-weight: 500;
+            color: $black;
+            margin-right: 20px;
+        }
+    }
+}
+
+/* The ESTATE Section Css  */
+.estate {
+    padding: 0px 0px 90px 0px;
+    margin-top: -15%;
+    background-color: $bodybackground;
+    span {
+        font-family: $secondfamily;
+        font-size: 12px;
+        letter-spacing: 3px;
+        color:$secondcolor;
+    }
+    h2 {
+        font-size: 50px;
+        font-family: $headingfamily;
+        letter-spacing: 25px;
+        color: $defaultcolor;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .es-des {
+        font-size: 20px;
+        font-family: $textfamily;
+        color: $defaultcolor;
+        letter-spacing: 1.11px;
+        width: 63%;
+        margin-left: 17%;
+        margin-right: 17%;
+        text-align: justify;
+    }
+    .slide-dis {
+        font-size: 16px;
+        font-family: $textfamily;
+        font-style: italic;
+        letter-spacing: 1px;
+        color: $black;
+        width: 41%;
+        padding-top: 20px;
+        text-align: justify;
+    }
+    .estateintro-img1 {
+        width: 40%;
+        float: right;
+    }
+    .estate-intro {
+        p {
+            font-size: 20px;
+            font-family: $headingfamily;
+            letter-spacing: 4.17px;
+            color: $secondcolor;
+            width: 365px;
+            text-align: justify;
+            margin-top: -4%;
+            text-transform: uppercase;
+        }
+        h5 {
+            font-family: $secondfamily;
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: 6px;
+        }
+    }
+}
+/* Team Section Css */ 
+.team {
+    background-color: #e1ddd4;
+    padding: 60px 0px 60px 0px;
+    span {
+        font-family: $secondfamily;
+        font-size: 12px;
+        letter-spacing: 3px;
+        color: #484133;
+    }
+    h2 {
+        font-size: 50px;
+        font-family: $headingfamily;
+        letter-spacing: 25px;
+        color: $defaultcolor;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+/*Team Carousel Css */ 
+.team-card {
+    img {
+        height: 50%;
+        width: 50%;
+    }
+    h3 {
+        font-size: 20px;
+        font-family: $headingfamily;
+        letter-spacing: 4.17px;
+        color: $defaultcolor;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    p {
+        font-size: 20px;
+        font-family: $textfamily;
+        letter-spacing: 1.11px;
+        color: $defaultcolor;
+        text-align: justify;
+    }
+}
+
+/* Environment Section css */ 
+.environment {
+    padding: 60px 0px 60px 0px;
+    background-color: $bodybackground;
+    span {
+        font-family: $secondfamily;
+        font-size: 12px;
+        letter-spacing: 3px;
+        color:#8f8982;
+    }
+    h2 {
+        font-size: 50px;
+        font-family: $headingfamily;
+        letter-spacing: 25px;
+        color: $defaultcolor;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    p {
+        font-size: 20px;
+        font-family: $textfamily;
+        letter-spacing: 1.11px;
+        text-align: justify;
+        color: $defaultcolor;
+        width: 95%;
+    }
+    img {
+        width: 94%;
+    }
+}
+.desk-hide {
+    display: none !important ;
+}
+.mbl-hide {
+    display: block !important ;
+}
+
+/* Story page responsive mobile css */ 
+@media (max-width: 575.98px) {
+    .story-header {
+        background-image: url("../Images/MOBILE/04_STORY/STORY_1.jpg");
+        height: 700px;
+        .fa-angle-down {
+            margin-top: 65%;
+        }
+        h2 {
+            font-size: 28px;
+            letter-spacing: 14px;
+            padding-top: 15px;
+        }
+        .story-heading {
+            padding-top: 72%;
+        }
+    }
+    .storypage-content {
+        padding: 40px 0px 0px 0px;
+        .st-des {
+            font-size: 14px;
+            letter-spacing: 3.33px;
+            margin-left: -1%;
+            margin-right: 5%;
+            margin-bottom: 10%;
+            width: 100%;
+        }
+        p {
+            font-size: 16px;
+            letter-spacing: 0.89px;
+            width: 100%;
+            padding: 0px 20px 0px 20px;
+        }
+        a {
+            color: $black;
+            font-family: $secondfamily;
+            font-size: 12px;
+            font-weight: 900;
+            letter-spacing: 6px;
+        }
+        .tab-res {
+            width: 350px;
+            height: 350px;
+        }
+    }
+    .cave {
+        padding: 40px 0px 40px 0px;
+        h2 {
+            font-size: 28px;
+            letter-spacing: 14px;
+        }
+        .slider-dis {
+            width: 100%;
+            font-size: 16px;
+            padding: 20px 30px 20px 30px;
+        }
+        .cave-des{
+            font-size: 16px;
+            width: 100%;
+            margin-left: 0%;
+            margin-right: 0%;
+            padding: 0px 30px 0px 30px;
+        }
+        .cave-intro img {
+            height: 100%;
+            margin-top: 0%;
+            margin-left: 5%;
+        }
+        a {
+            color: $black;
+            font-family: $secondfamily;
+            font-size: 12px;
+            font-weight: 900;
+            letter-spacing: 6px;
+        }
+        .cave-intro {
+            .caveintro-img2{
+                height: auto;
+                width: 100%;
+                margin-left: 0px;
+                margin-top: 5%;
+            }
+            p {
+                font-size: 16px;
+                letter-spacing: 3.33px;
+                width: 100%;
+                padding: 20px 30px 0px 30px;
+            }
+            h5 {
+                padding-left: 30px;
+            }
+        }
+        .caveintro-img3 {
+            width: 100%;
+            height: 100%;
+            margin-left: 0%;
+            margin-top: 10%;
+            }
+            .caveintro-img4 {
+                width: 183.2px;
+                height: 150.7px;
+                margin-top: 15%;
+                margin-left: 40%;
+            }
+    }
+
+    .estate {
+        margin-top: 0%;
+        h2 {
+            font-size: 28px;
+            letter-spacing: 14px;
+        }
+        .slide-dis {
+            width: 100%;
+            padding: 20px 30px 0px 30px;
+            font-size: 12px;
+        }
+        .es-des {
+            width: 100%;
+            padding: 0px 30px 0px 30px;
+            font-size: 12px;
+            margin-left: 0%;
+            margin-right: 0%;
+        }
+        .estateintro-img1 {
+            width: 80%;
+            float: right;
+        }
+        .estate-intro {
+            p {
+                font-size: 16px;
+                letter-spacing: 3.33px;
+                width: 100%;
+                padding: 20px 30px 0px 30px;
+            }
+            h5 {
+                padding-left: 30px;
+            }
+        }
+    }
+    .team {
+        h2 {
+            font-size: 28px;
+            letter-spacing: 14px;
+        }
+        .team-card {
+            margin: 20px;
+        }
+    }
+    .environment {
+        h2 {
+            font-size: 28px;
+            letter-spacing: 14px;
+        }
+        img {
+            width: 100%;
+        }
+        p {
+            font-size: 14px;
+            letter-spacing: 0.89px;
+            padding: 30px;
+        }
+    }
+    .box-hide {
+        display: none !important;
+    }
+.desk-hide {
+    display: block !important ;
+}
+.mbl-hide {
+    display: none !important ;
+}
+.mobile-hide {
+    display: none !important;
+}
+
+}
+
+

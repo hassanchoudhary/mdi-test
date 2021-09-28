@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--Custom css link-->
+    <link rel="stylesheet" href="assests/css/style.css">
+
+    <title>WINES</title>
+
+    <script>
+      function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+      }
+      function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+      }
+      </script>
+
+      <script>
+        function openSearch() {
+          document.getElementById("mySearch").style.width = "100%";
+        }
+        function closeSearch() {
+          document.getElementById("mySearch").style.width = "0%";
+        }
+        </script>
+
+        <script>
+          function openDeskSearch() {
+            document.getElementById("deskSearch").style.width = "100%";
+          }
+          function closeDeskSearch() {
+            document.getElementById("deskSearch").style.width = "0%";
+          }
+          </script>
+
+  </head>
+  <body style="background-color: #fbf9f6;">
+
+    <!-- Header-->
+    <section class="header">
+      <div class="container-fluid">
+<!-- Navbar mobiles-->
+    <section class="mbl-nav">
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="Wines.html">OUR WINES</a>
+          <a href="story.html">OUR STORY</a>
+          <a href="residence.html">RESIDENCES</a>
+          <div class="row extra-menu mt-5">
+            <div class="col">
+              <a href="journal.html">JOURNAL</a>
+            </div>
+            <div class="col">
+              <a href="contact.html">CONTACT</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <span style="font-size:30px;cursor:pointer;color: #fff;" onclick="openNav()">&#9776;</span>
+      <span onclick="openSearch()"><i class="fas fa-search float-end mt-3"></i></span>
+      <!-- Serch Icon-->
+      <div id="mySearch" class="overlay">
+        <a href="javascript:void(0)" class="closebtn2" onclick="closeSearch()">&times;</a>
+        <div class="overlay-content">
+        <input type="text" class="form-control" value="Search" >
+        </div>
+      </div>
+    </section>
+
+
+<!-- Navbar desktop-->
+    <section class="desktop-nav">
+    <nav class="navbar navbar-expand-lg navbar-light text-center">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <a class="nav-link active desk-hide" aria-current="page" href="#">HOME</a>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Wines.html">OUR WINES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="story.html">OUR STORY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="residence.html">RESIDENCES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="journal.html">JOURNAL</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">CONTACT</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+          </form>
+        </div>
+        <span onclick="openDeskSearch()"><i class="fas fa-search"></i></span>
+        <!-- Serch Icon-->
+        <div id="deskSearch" class="overlay">
+          <a href="javascript:void(0)" class="closebtn2" onclick="closeDeskSearch()">&times;</a>
+          <div class="overlay-content">
+          <input type="text" class="form-control" value="Search" >
+          </div>
+        </div>
+      </div>
+    </nav>
+  </section>
+    <!-- Navbar End-->
+        <div class="row">
+          <div class="col text-center">
+            <img src="assests/Images/LOGO/MAS_DES_INF_LOGO.png">
+            <div class="arrow-down">
+              <i class="fas fa-angle-down"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  <!-- Header End-->
+
+  <!-- Section Two Introduction-->
+  <section class="introduction">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <span>INTRODUCTION</span>
+          <h2>OUR WINES</h2>
+          <img class="img-intro3" src="assests/Images/MOBILE/01_HOME/HOME_2.jpg" alt="">
+          <p>The Mas des Infermières estate is a mythical and private place; a vast, rambling and rich land where exceptional wines are created under the warmth of the Provençal sun. Since 1992 the Scott family have come here to paint, to read and to enjoy the life, played out over long hot summers.</p>
+          <a href="Wines.html"><u>EXPLORE</u></a>
+        </div>
+      </div>
+      <div class="row pt-5 mt-5 mb-5">
+        <div class="col text-center">
+          <img class="img-intro1" src="assests/Images/DESKTOP/PNG/Home 1.png" alt="">
+        </div>
+        <div class="col">
+          <img class="img-intro2" src="assests/Images/DESKTOP/01_HOME/HOME_2.jpg" alt="">
+          <span class="img-count">01</span>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-md-9">
+          <img class="img-intro4" src="assests/Images/DESKTOP/01_HOME/HOME_4.jpg" alt="">
+          <img class="img-intro5" src="assests/Images/MOBILE/01_HOME/HOME_4.jpg" alt="">
+          <span class="img-count">02</span>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-md-7"></div>
+        <div class="col-md-5 col-sm-3">
+          <img src="assests/Images/DESKTOP/PNG/Home 2.png" alt="">
+        </div>
+      </div>
+        <div class="row mt-5">
+          <div class="col numbrs">
+            <span>01</span> <p>The Provence air is lightly<br> fragranced with lavendar and bay</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col numbrs">
+            <span>02</span> <p>Syrah and Granache grapes are<br> grown around the estate</p>
+          </div>
+        </div>
+    </div>
+  </section>
+<!-- Section Two Introduction End-->
+<!-- Section Our Story -->
+<section class="our-story text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <span>INTRODUCTION</span>
+        <h2>OUR STORY</h2>
+        <p>The Mas des Infermières estate is a mythical and private place; a vast, rambling and rich land where exceptional wines are created under the warmth of the Provençal sun. Since 1992 the Scott family have come here to paint, to read and to enjoy the life, played out over long hot summers.</p>
+        <a href="story.html"><u>EXPLORE</u></a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="story-content">
+<div class="container">
+<span>01</span>
+<div class="row mt-5 mb-5">
+<div class="col-3"></div>
+<div class="col-9">
+  <img src="assests/Images/DESKTOP/01_HOME/HOME76.jpg" alt="">
+  <span>02</span>
+</div>
+</div>
+<div class="row mt-5">
+  <div class="col numbrs">
+    <span>01</span> <p>The Provence air is lightly<br> fragranced with lavendar and bay</p>
+  </div>
+</div>
+<div class="row mb-5">
+  <div class="col numbrs">
+    <span>02</span> <p>Syrah and Granache grapes are<br> grown around the estate</p>
+  </div>
+</div>
+<div class="row intro-story mt-5 mb-5">
+  <div class="col-6">
+    <img src="assests/Images/DESKTOP/PNG/Home 3.png" alt="">
+  </div>
+  <div class="col-6">
+    <p>The silence and sunshine are a sanctuary from 
+      my profession. I love 
+      to come here and paint, read, write and, hopefully, improve my corner of Provence.</p>
+      <h5>RIDLEY SCOTT</h5>
+  </div>
+</div>
+</div>
+</section>
+<!-- Section Our Story Mobile -->
+
+<section class="story-mbl">
+  <div class="container">
+    <div class="row">
+      <div class="col text-center">
+        <span>INTRODUCTION</span>
+        <h2>OUR STORY</h2>
+        <img class="img-intro3" src="assests/Images/MOBILE/01_HOME/HOME_6.jpg" alt="">
+        <p>The Mas des Infermières estate is a mythical and private place; a vast, rambling and rich land where exceptional wines are created under the warmth of the Provençal sun. Since 1992 the Scott family have come here to paint, to read and to enjoy the life, played out over long hot summers.</p>
+        <a href=""><u>EXPLORE</u></a>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col">
+        <img src="assests/Images/MOBILE/01_HOME/MAS_DES_INF_HOME.jpg" alt="">
+      </div>
+    </div>
+    <div class="row storymbl-intro">
+      <div class="col">
+        <p>The silence and sunshine are a sanctuary from 
+          my profession. I love 
+          to come here and paint, read, write and, hopefully, improve my corner of Provence.</p>
+          <h5>RIDLEY SCOTT</h5>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <img class="storymbl-introimg" src="assests/Images/DESKTOP/PNG/Home 3.png" alt="">
+      </div>
+    </div>
+    </div>
+    </section>
+
+
+<!-- Section Our Residence-->
+<section class="our-residence">
+  <div class="container">
+  <div class="row">
+    <div class="col-12 bg-residence">
+    </div>
+  </div>
+  <span>01</span>
+  <div class="row mt-5 text-center">
+    <div class="col text-center">
+      <span>INTRODUCTION</span>
+      <h2>OUR RESIDENCES</h2>
+      <p>The Mas des Infermières estate is a mythical and private place; a vast, rambling and rich land where exceptional wines are created under the warmth of the Provençal sun. Since 1992 the Scott family have come here to paint, to read and to enjoy the life, played out over long hot summers.</p>
+      <a href="residence.html"><u>EXPLORE</u></a>
+    </div>
+  </div>
+
+  <div class="row residence-intro">
+    <div class="col-6">
+      <img src="assests/Images/DESKTOP/01_HOME/HOME_10.jpg" alt="">
+    </div>
+    <div class="col-6">
+      <p>The silence and sunshine are a sanctuary from 
+        my profession. I love 
+        to come here and paint, read, write and, hopefully, improve my corner of Provence.</p>
+        <h5>RIDLEY SCOTT</h5>
+    </div>
+  </div>
+  <div class="row mt-5">
+    <div class="col"></div>
+      <div class="col numbrs">
+        <span>01</span> <p>The Provence air is lightly<br> fragranced with lavendar and bay</p>
+      </div>
+  </div>
+  <div class="row">
+    <div class="col"></div>
+      <div class="col numbrs">
+        <span>02</span> <p>Syrah and Granache grapes are<br> grown around the estate</p>
+      </div>
+  </div>
+
+</div>
+</section>
+<!-- Section Our Residence MOBILE-->
+<section class="residence-mbl">
+  <div class="container">
+    <center>
+    <span>INTRODUCTION</span>
+      <h2>RESIDENCES</h2></center>
+  <div class="row">
+    <div class="col">
+      <img src="assests/Images/MOBILE/01_HOME/pool52.jpg" alt="">
+      <p>The Mas des Infermières estate is a mythical and private place; a vast, rambling and rich land where exceptional wines are created under the warmth of the Provençal sun. Since 1992 the Scott family have come here to paint, to read and to enjoy the life, played out over long hot summers.</p>
+     <center> <a href=""><u>EXPLORE</u></a></center>
+      <img class="mt-5" src="assests/Images/MOBILE/01_HOME/IMG_6579.jpg" alt="">
+      <p class="resi-intro" >The silence and sunshine are a sanctuary from 
+        my profession. I love 
+        to come here and paint, read, write and, hopefully, improve my corner of Provence.</p>
+        <h5>RIDLEY SCOTT</h5>
+    </div>
+  </div>
+  </div>
+</section>
+<!--Connect Section-->
+<section class="connect text-center">
+  <div class="container">
+    <span>NEWS FROM THE ESTATE</span>
+    <h2>CONNECT</h2>
+    <div class="row mt-5 mb-5">
+      <div class="col">
+        <img src="assests/Images/DESKTOP/01_HOME/INSTA/SOCIAL_1.jpg" alt="">
+      </div>
+      <div class="col">
+        <img src="assests/Images/DESKTOP/01_HOME/INSTA/SOCIAL_2.jpg" alt="">
+      </div>
+      <div class="col insta-hide">
+        <img src="assests/Images/DESKTOP/01_HOME/INSTA/SOCIAL_3.jpg" alt="">
+      </div>
+      <div class="col insta-hide">
+        <img src="assests/Images/DESKTOP/01_HOME/INSTA/SOCIAL_4.jpg" alt="">
+      </div>
+    </div>
+    <a href="contact.html"><u>EXPLORE</u></a>
+  </div>
+</section>
+<!-- Section Footer-->
+<section class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <a href="Wines.html">THE WINES</a>
+          <a href="#">THE ESTATE</a>
+            <a href="residence.html">THE RESIDENCES</a>
+      </div>
+      <div class="col">
+        <a href="">INSTAGRAM </a>
+          <a href="">FACEBOOK</a>
+            <a href="contact.html">CONTACT</a>
+      </div>
+      <div class="col">
+        <a href="">TERMS</a>
+          <a href="">PRIVACY POLICY</a>
+            <a href="">COOKIE POLICY</a>
+      </div>
+      <div class="col">
+        <p style="text-transform: uppercase;">145 Chemin des Infermières, 84580 Oppède, France</p>
+      </div>
+    </div>
+    <div class="row footer-bottom mt-5">
+      <div class="col-3">
+        <p>Copyright Mas Des Infermières 2021 </p>
+      </div>
+      <div class="col-3">
+        <p>Sign up for exlusive news and updates</p>
+      </div>
+      <div class="col-6">
+        <form class="d-flex">
+          <input type="text" class="form-control"  value="Enter Email Address" >
+          <button class="btn" type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Section Footer mbl-->
+<section class="footer-mbl text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <a href="Wines.html">THE WINES</a>
+        <a href="">THE ESTATE</a>
+        <a href="residence.html">THE RESIDENCES</a>
+        <a href="">TERMS</a>
+        <a href="">PRIVACY POLICY</a>
+        <a href="">COOKIE POLICY</a>
+      </div>
+    </div>
+    <div class="row social-icon">
+      <div class="col">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-pinterest-p"></i>
+        <i class="fab fa-instagram"></i>
+      </div>
+    </div>
+    <hr>
+    <div class="row newsletter">
+      <div class="col">
+        <p>Sign up for exlusive news and updates</p>
+        <input type="text" class=""  value="Enter Email Address" >
+        <button class="btn" type="submit">Subscribe</button>
+      </div>
+    </div>
+    <hr>
+    <div class="row footermbl-bottom">
+      <p>145 Chemin des Infermières, 84580<br> Oppède, France</p>
+      <p>COPYRIGHT MAS DES Infermières 2021 </p>
+    </div>
+  </div>
+</section>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/952ec9e3b8.js" crossorigin="anonymous"></script>
+  </body>
+</html>

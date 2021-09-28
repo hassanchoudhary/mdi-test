@@ -1,0 +1,135 @@
+/*  ######################## JOURNAL PAGE CSS ############ */
+
+.journal-header {
+    background-image: url("../Images/DESKTOP/07_JOURNAL/JOURNAL_1.jpg");
+    background-size: cover;
+    .fa-search {
+        color: $white;
+        font-size: 15px;
+    }
+    .fa-angle-down {
+        color: $white;
+        font-size: 40px;
+        margin-top: 17%;
+    }
+    ul {
+        margin-left: 11%;
+    }
+    .nav-link {
+        color: $white !important;
+        font-family: $secondfamily;
+        font-size: 12px;
+        font-weight: 900;
+        letter-spacing: 6px;
+    }
+    .nav-item {
+        margin-right: 20px;
+    }
+    nav {
+        padding: 40px 20px;
+    }
+    span {
+        font-family: $secondfamily;
+        font-size: 12px;
+        letter-spacing: 3px;
+        color: $white;
+    }
+    h2 {
+        font-size: 50px;
+        font-family: $headingfamily;
+        letter-spacing: 25px;
+        color: $white;
+    }
+    .journal-heading {
+        padding: 15% 0% 2% 0%;
+    }
+}
+.journal-content {
+    background-color: $bodybackground;
+    padding: 90px 0px 90px 0px;
+    .journal-img1 {
+        width: 554.7px;
+        height: 312px;
+    }
+    span {
+        font-family: $secondfamily;
+        font-size: 12px;
+        letter-spacing: 3px;
+        color: #aea79e;
+    }
+    h5 {
+        font-size: 20px;
+        font-family: $headingfamily;
+        letter-spacing: 4.17px;
+        text-align: justify;
+        color: $defaultcolor;
+        width: 80%;
+        margin-top: 2%;
+        margin-bottom: 5%;
+    }
+    p {
+        font-size: 20px;
+        font-family: $textfamily;
+        letter-spacing: 1.11px;
+        color: $defaultcolor;
+        text-align: justify;
+        width: 74%;
+    }
+    a {
+        color: $black;
+        font-family: $secondfamily;
+        font-size: 12px;
+        font-weight: 900;
+        letter-spacing: 6px;
+    }
+    .journal-img2 {
+        width: 545.6px;
+        height: 970px;
+    }
+    .journal-img3 {
+        width: 544px;
+        height: 306px;
+    }
+}
+
+/* Journal Page Mobile Responsive Css */ 
+
+@media (max-width: 575.98px) {
+    .journal-header {
+        background-image: url("../Images/MOBILE/07_JOURNAL_1/JOURNAL_1_1.jpg");
+        height: 500px;
+        h2 {
+            font-size: 28px;
+            letter-spacing: 14px;
+        }
+        .journal-heading {
+            padding: 35% 0% 20% 0%;
+        }
+    }
+    .journal-content {
+        .journalmbl-img1 {
+            width: 350px;
+            height: 360px;
+        }
+
+        h5 {
+            font-size: 16px;
+            letter-spacing: 3.33px;
+            margin-top: 5%;
+            color: #aaa29a;
+        }
+        p {
+            font-size: 16px;
+            letter-spacing: 0.89px;
+            width: 85%;
+        }
+        .journalmbl-img2 {
+            width: 350px;
+            height: 401.1px;
+        }
+        .journalmbl-img3 {
+            width: 350px;
+            height: 225px;
+        }
+    }
+}

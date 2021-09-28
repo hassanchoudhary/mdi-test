@@ -1,0 +1,163 @@
+/*  ######################## Wines PAGE CSS ############ */
+
+.wine-header {
+    background-image: url("../Images/DESKTOP/02_WINES/WINES_1.jpg");
+    background-size: cover;
+    .fa-search {
+        color: $white;
+        font-size: 15px;
+    }
+    .fa-angle-down {
+        color: $white;
+        font-size: 40px;
+        margin-top: 17%;
+    }
+    ul {
+        margin-left: 11%;
+    }
+    .nav-link {
+        color: $white !important;
+        font-family: $secondfamily;
+        font-size: 12px;
+        font-weight: 900;
+        letter-spacing: 6px;
+    }
+    .nav-item {
+        margin-right: 20px;
+    }
+    nav {
+        padding: 40px 20px;
+    }
+    span {
+        font-family: $secondfamily;
+        font-size: 12px;
+        letter-spacing: 3px;
+        color: $white;
+    }
+    h2 {
+        font-size: 50px;
+        font-family: $headingfamily;
+        letter-spacing: 25px;
+        color: $white;
+        padding-top: 15px;
+    }
+    .wine-heading {
+        padding: 15% 0% 2% 0%;
+    }
+}
+
+.wine-dis {
+    background-color: #ebe8e2;
+    padding: 70px 0px 50px 0px;
+    p {
+        font-size: 20px;
+        font-family: $headingfamily;
+        letter-spacing: 4.17px;
+        color: $defaultcolor;
+        text-align: center;
+        width: 88%;
+        margin-left: 8%;
+        text-transform: uppercase;
+    }
+}
+.wine-collection {
+    background-color: #ebe8e2;
+    padding-bottom: 90px;
+    span {
+        font-family: $secondfamily;
+        font-size: 12px;
+        letter-spacing: 3px;
+        text-align: center;
+        color: $secondcolor;
+    }
+    h2 {
+        font-size: 50px;
+        font-family: $headingfamily;
+        letter-spacing: 25px;
+        color: $defaultcolor;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .wine-item {
+        img {
+            width: 250.8px;
+            height: 700px;
+        }
+        h3 {
+            font-size: 20px;
+            font-family: $headingfamily;
+            letter-spacing: 4.17px;
+            color: $defaultcolor;
+            margin-top: 10%;
+            margin-bottom: 10%;
+        }
+        a {
+            color: $black;
+            font-family: $secondfamily;
+            font-size: 12px;
+            font-weight: 900;
+            letter-spacing: 6px;
+        }
+        p {
+            font-size: 24px;
+            letter-spacing: 4px;
+            color: $defaultcolor;
+            font-family: $headingfamily;
+            padding-top: 130%;
+        }
+    }
+}
+
+
+/* Wine Page Mobile Responsive CSs */ 
+@media (max-width: 575.98px) {
+.wine-header {
+    background-image: url("../Images/MOBILE/02_WINES/WINES_1.jpg");
+    height: 700px;
+    h2 {
+        font-size: 28px;
+        letter-spacing: 14px;
+        padding-top: 15px;
+    }
+    .fa-angle-down {
+        margin-top: 63%;
+    }
+    .wine-heading {
+        padding: 75% 0% 2% 0%;
+    }
+    }
+    .wine-dis {
+        .dis-p1 {
+            font-size: 16px;
+            font-family: $headingfamily;
+            letter-spacing: 2.33px;
+            text-align: justify;
+            margin-left: 5%;
+            }
+        .dis-p2 {
+            font-size: 16px;
+            font-family: $textfamily;
+            letter-spacing: 0.89px;
+            text-align: justify;
+            margin-top: 10%;
+            margin-left: 5%;
+            }
+    }
+
+    .wine-collection {
+        h2 {
+            font-size: 28px;
+            letter-spacing: 14px;
+        }
+        .wine-item {
+            img {
+                width: 150.8px;
+                height: 500px;
+            }
+        }
+        p {
+            padding-top: 70% !important;
+        }
+    }
+
+}

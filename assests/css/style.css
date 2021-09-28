@@ -72,7 +72,7 @@
   top: 0;
   left: 0;
   background-color: black;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.9);
   overflow-x: hidden;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -602,8 +602,9 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: black;
     background-color: rgba(0, 0, 0, 0.9);
+    background-image: url("../Images/MOBILE/01_HOME/HOME_1.jpg");
+    background-size: cover;
     overflow-x: hidden;
     -webkit-transition: 0.5s;
     transition: 0.5s;
@@ -642,6 +643,9 @@
     transition: 0.3s;
     letter-spacing: 14px;
     font-family: lovato;
+  }
+  .mbl-nav .extra-menu {
+    margin-top: 50%;
   }
   .mbl-nav .extra-menu a {
     font-size: 12px;
@@ -1313,6 +1317,9 @@
     background-image: url("../Images/MOBILE/04_STORY/STORY_1.jpg");
     height: 700px;
   }
+  .story-header .mbl-nav .overlay {
+    background-image: url("../Images/MOBILE/04_STORY/STORY_1.jpg");
+  }
   .story-header .fa-angle-down {
     margin-top: 65%;
   }
@@ -1605,6 +1612,9 @@
     background-image: url("../Images/MOBILE/02_WINES/WINES_1.jpg");
     height: 700px;
   }
+  .wine-header .mbl-nav .overlay {
+    background-image: url("../Images/MOBILE/02_WINES/WINES_1.jpg");
+  }
   .wine-header h2 {
     font-size: 28px;
     letter-spacing: 14px;
@@ -1896,6 +1906,9 @@
     background-image: url("../Images/MOBILE/05_RESIDENCES_1/RESIDENCES_1_1.jpg");
     height: 600px;
   }
+  .residence-header .mbl-nav .overlay {
+    background-image: url("../Images/MOBILE/05_RESIDENCES_1/RESIDENCES_1_1.jpg");
+  }
   .residence-header .fa-angle-down {
     margin-top: 48%;
   }
@@ -2067,6 +2080,9 @@
   .journal-header {
     background-image: url("../Images/MOBILE/07_JOURNAL_1/JOURNAL_1_1.jpg");
     height: 500px;
+  }
+  .journal-header .mbl-nav .overlay {
+    background-image: url("../Images/MOBILE/07_JOURNAL_1/JOURNAL_1_1.jpg");
   }
   .journal-header h2 {
     font-size: 28px;
@@ -2284,6 +2300,9 @@
     height: 800px;
     background-image: url("../Images/MOBILE/06_RESIDENCES_2/RESIDENCES_2_1.jpg");
   }
+  .residence-detail-header .mbl-nav .overlay {
+    background-image: url("../Images/MOBILE/06_RESIDENCES_2/RESIDENCES_2_1.jpg");
+  }
   .residence-detail-header .fa-angle-down {
     margin-top: 80%;
   }
@@ -2481,6 +2500,7 @@
     width: 121.2px;
     height: 488px;
     margin-top: -150px;
+    margin-left: 0px;
   }
   .product-detail .detail-bg {
     background-image: url("../Images/DESKTOP/PNG/untitled-1.png");
@@ -2642,6 +2662,9 @@
   .contact-header {
     background-image: url("../Images/MOBILE/09_CONTACT/CONTACT_1.jpg");
     height: 500px;
+  }
+  .contact-header .mbl-nav .overlay {
+    background-image: url("../Images/MOBILE/09_CONTACT/CONTACT_1.jpg");
   }
   .contact-header .contact-heading {
     padding: 25% 0% 20% 0%;

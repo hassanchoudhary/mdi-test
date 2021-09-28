@@ -157,6 +157,13 @@
 
 @media (max-width: 575.98px) {
     .residence-detail-header {
+
+        .mbl-nav {
+            .overlay {
+                background-image: url("../Images/MOBILE/06_RESIDENCES_2/RESIDENCES_2_1.jpg");
+              }
+            }
+
         height: 800px;
         background-image: url("../Images/MOBILE/06_RESIDENCES_2/RESIDENCES_2_1.jpg");
         .fa-angle-down {

@@ -111,7 +111,15 @@
 
 /* Wine Page Mobile Responsive CSs */ 
 @media (max-width: 575.98px) {
-.wine-header {
+
+    .wine-header {
+
+        .mbl-nav {
+            .overlay {
+                background-image: url("../Images/MOBILE/02_WINES/WINES_1.jpg");
+              }
+            }
+
     background-image: url("../Images/MOBILE/02_WINES/WINES_1.jpg");
     height: 700px;
     h2 {

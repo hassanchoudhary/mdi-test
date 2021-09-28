@@ -334,7 +334,16 @@
 
 /* Story page responsive mobile css */ 
 @media (max-width: 575.98px) {
+    
     .story-header {
+
+        .mbl-nav {
+            .overlay {
+                background-image: url("../Images/MOBILE/04_STORY/STORY_1.jpg");
+              }
+            }
+
+
         background-image: url("../Images/MOBILE/04_STORY/STORY_1.jpg");
         height: 700px;
         .fa-angle-down {

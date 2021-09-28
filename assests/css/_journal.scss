@@ -96,6 +96,14 @@
 
 @media (max-width: 575.98px) {
     .journal-header {
+
+        .mbl-nav {
+            .overlay {
+                background-image: url("../Images/MOBILE/07_JOURNAL_1/JOURNAL_1_1.jpg");
+              }
+            }
+
+
         background-image: url("../Images/MOBILE/07_JOURNAL_1/JOURNAL_1_1.jpg");
         height: 500px;
         h2 {

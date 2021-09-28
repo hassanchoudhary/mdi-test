@@ -110,6 +110,13 @@
 /* Contact Page Mobile Responsive css */ 
 @media (max-width: 575.98px) {
     .contact-header {
+
+        .mbl-nav {
+            .overlay {
+                background-image: url("../Images/MOBILE/09_CONTACT/CONTACT_1.jpg");
+              }
+            }
+
         background-image: url("../Images/MOBILE/09_CONTACT/CONTACT_1.jpg");
         height: 500px;
         .contact-heading {

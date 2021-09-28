@@ -213,7 +213,17 @@
 
 /* Residence Page Mobile responsive Css */  
 @media (max-width: 575.98px) {
-.residence-header {
+
+
+    .residence-header {
+        .mbl-nav {
+            .overlay {
+                background-image: url("../Images/MOBILE/05_RESIDENCES_1/RESIDENCES_1_1.jpg");
+              }
+            }
+
+
+
     background-image: url("../Images/MOBILE/05_RESIDENCES_1/RESIDENCES_1_1.jpg");
     height: 600px;
     .fa-angle-down {

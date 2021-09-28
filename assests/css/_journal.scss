@@ -4,7 +4,6 @@
     background-image: url("../Images/DESKTOP/07_JOURNAL/JOURNAL_1.jpg");
     background-size: cover;
     background-position: bottom;
-    height: 700px;
     .fa-search {
         color: $white;
         font-size: 15px;
@@ -54,7 +53,7 @@
         color: $white;
     }
     .journal-heading {
-        padding: 15% 0% 2% 0%;
+        padding: 15% 0% 5% 0%;
     }
 }
 .journal-content {

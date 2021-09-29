@@ -56,11 +56,19 @@
         padding: 15% 0% 5% 0%;
     }
 }
+/* Story top border */
+.story-vl {
+    border-left: 1px solid #aea79e;
+    height: 50px;
+    margin-left: 50%;
+    top: 0;
+    display: block;
+  }
 
 /* Story content Css  */ 
 
 .storypage-content {
-    padding: 90px 0px 60px 0px;
+    padding: 40px 0px 0px 0px;
     background-color: $bodybackground;
     .st-des {
         font-size: 20px;
@@ -68,7 +76,7 @@
         letter-spacing: 4.17px;
         color: $defaultcolor;
         width: 74%;
-        margin-left: 13%;
+        margin-left: 14%;
         margin-right: 13%;
         text-align: justify;
         text-transform: uppercase;
@@ -80,11 +88,12 @@
         letter-spacing: 1.11px;
         width: 95%;
         text-align: justify;
+        margin-left: 15px;
     }
     .numbrs {
         display: -webkit-inline-box;
         p {
-            margin-left: 0%;
+            margin-left: 2%;
             margin-right: 0%;
             font-size: 16px;
             font-family: $textfamily;
@@ -104,8 +113,12 @@
 
 /* CAVE & VINEYARD Section Css  */
 .cave {
-    padding: 30px 0px 90px 0px;
+    padding: 0px 0px 0px 0px;
     background-color: $bodybackground;
+    .heading {
+        padding-top: 35px;
+        padding-bottom: 40px;
+    }
     span {
         font-family: $secondfamily;
         font-size: 12px;
@@ -137,7 +150,7 @@
         font-style: italic;
         letter-spacing: 1px;
         color: $black;
-        width: 41%;
+        width: 80%;
         padding-top: 30px;
         text-align: justify;
     }
@@ -145,7 +158,7 @@
         img {
             width: 90%;
             height: 70%;
-            margin-top: 15%;
+            margin-top: 28%;
         }
         p {
             font-size: 20px;
@@ -155,6 +168,7 @@
             width: 365px;
             text-align: justify;
             text-transform: uppercase;
+            padding-top: 80px;
         }
         h5 {
             font-family: $secondfamily;
@@ -180,7 +194,7 @@
         display: flex;
         margin-top: 20px;
         p {
-            margin-left: 0%;
+            margin-left: 2%;
             margin-right: 0%;
             font-size: 16px;
             font-family: $textfamily;
@@ -200,9 +214,13 @@
 
 /* The ESTATE Section Css  */
 .estate {
-    padding: 0px 0px 90px 0px;
-    margin-top: -15%;
+    padding: 0px 0px 0px 0px;
     background-color: $bodybackground;
+    margin-top: -6%;
+    .heading {
+        padding-top: 35px;
+        padding-bottom: 20px;
+    }
     span {
         font-family: $secondfamily;
         font-size: 12px;
@@ -223,7 +241,7 @@
         font-family: $textfamily;
         color: $defaultcolor;
         letter-spacing: 1.11px;
-        width: 63%;
+        width: 66%;
         margin-left: 17%;
         margin-right: 17%;
         text-align: justify;
@@ -234,13 +252,14 @@
         font-style: italic;
         letter-spacing: 1px;
         color: $black;
-        width: 41%;
+        width: 81%;
         padding-top: 20px;
         text-align: justify;
     }
     .estateintro-img1 {
-        width: 40%;
         float: right;
+        width: 507.9px;
+        height: 699px;
     }
     .estate-intro {
         p {
@@ -307,8 +326,11 @@
 
 /* Environment Section css */ 
 .environment {
-    padding: 60px 0px 60px 0px;
+    padding: 0px 0px 90px 0px;
     background-color: $bodybackground;
+    .heading {
+        padding-top: 35px;
+    }
     span {
         font-family: $secondfamily;
         font-size: 12px;
@@ -346,6 +368,9 @@
 /* Story page responsive mobile css */ 
 @media (max-width: 575.98px) {
     
+    .story-vl {
+        display: none;
+    }
     .story-header {
 
         .mbl-nav {
@@ -385,7 +410,8 @@
             font-size: 16px;
             letter-spacing: 0.89px;
             width: 100%;
-            padding: 0px 20px 0px 20px;
+            padding: 20px 20px 0px 20px;
+            margin-left: 0px;
         }
         a {
             color: $black;
@@ -395,12 +421,12 @@
             letter-spacing: 6px;
         }
         .tab-res {
-            width: 350px;
+            width: 373px;
             height: 350px;
         }
     }
     .cave {
-        padding: 40px 0px 40px 0px;
+        padding: 0px 0px 0px 0px;
         h2 {
             font-size: 28px;
             letter-spacing: 14px;
@@ -419,7 +445,7 @@
         }
         .cave-intro img {
             height: 100%;
-            margin-top: 0%;
+            margin-top: 15%;
             margin-left: 5%;
         }
         a {
@@ -434,7 +460,7 @@
                 height: auto;
                 width: 100%;
                 margin-left: 0px;
-                margin-top: 5%;
+                margin-top: 30%;
             }
             p {
                 font-size: 16px;
@@ -479,8 +505,8 @@
             margin-right: 0%;
         }
         .estateintro-img1 {
-            width: 80%;
-            float: right;
+            width: 300.8px;
+            height: 414px;
         }
         .estate-intro {
             p {
@@ -504,6 +530,7 @@
         }
     }
     .environment {
+        padding: 0px 0px 0px 0px;
         h2 {
             font-size: 28px;
             letter-spacing: 14px;

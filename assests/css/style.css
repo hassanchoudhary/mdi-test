@@ -912,7 +912,7 @@
     text-align: justify;
   }
   .story-mbl img {
-    width: 358px;
+    width: 373px;
     height: 300px;
   }
   .story-mbl a {
@@ -979,7 +979,7 @@
     text-align: justify;
   }
   .residence-mbl img {
-    width: 358px;
+    width: 373px;
     height: 300px;
   }
   .residence-mbl a {
@@ -1916,6 +1916,9 @@
   .wine-collection h2 {
     font-size: 28px;
     letter-spacing: 14px;
+  }
+  .wine-collection .wine-item {
+    display: block;
   }
   .wine-collection .wine-item img {
     width: 150.8px;

@@ -1536,7 +1536,7 @@
     padding-top: 50%;
   }
   .storypage-content {
-    padding: 40px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
   }
   .storypage-content .st-des {
     font-size: 14px;
@@ -1545,6 +1545,7 @@
     margin-right: 5%;
     margin-bottom: 10%;
     width: 100%;
+    padding-top: 30px;
   }
   .storypage-content p {
     font-size: 16px;
@@ -1764,7 +1765,7 @@
 
 .wine-dis {
   background-color: #ebe8e2;
-  padding: 70px 0px 0px 0px;
+  padding: 30px 0px 0px 0px;
 }
 
 .wine-dis p {
@@ -1895,12 +1896,17 @@
   .line-left {
     display: block;
   }
+  .wine-dis {
+    padding: 0px 0px 0px 0px;
+    margin-top: -16px;
+  }
   .wine-dis .dis-p1 {
     font-size: 16px;
     font-family: lovato;
     letter-spacing: 2.33px;
     text-align: justify;
     margin-left: 5%;
+    padding-top: 30px;
   }
   .wine-dis .dis-p2 {
     font-size: 16px;
@@ -2682,7 +2688,7 @@
     padding: 80% 0% 80% 0%;
   }
   .resi-detail {
-    padding: 30px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
   }
   .resi-detail p {
     font-size: 16px;
@@ -2690,6 +2696,7 @@
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
+    padding-top: 30px;
   }
   .line-left {
     display: none;

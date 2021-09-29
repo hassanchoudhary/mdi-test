@@ -61,7 +61,7 @@
 
 .wine-dis {
     background-color: #ebe8e2;
-    padding: 70px 0px 0px 0px;
+    padding: 30px 0px 0px 0px;
     p {
         font-size: 20px;
         font-family: $headingfamily;
@@ -187,12 +187,15 @@
         display: block;
     }
     .wine-dis {
+        padding: 0px 0px 0px 0px;
+        margin-top: -16px;
         .dis-p1 {
             font-size: 16px;
             font-family: $headingfamily;
             letter-spacing: 2.33px;
             text-align: justify;
             margin-left: 5%;
+            padding-top: 30px;
             }
         .dis-p2 {
             font-size: 16px;

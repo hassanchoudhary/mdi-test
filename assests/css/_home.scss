@@ -724,7 +724,7 @@
     }
     .container {
         padding-left: 0px;
-        padding-right: 0.5px;
+        padding-right: 0px;
     }
     .header {
       background-image: url("../Images/MOBILE/_HEADER/Home-Mobile.jpg");
@@ -757,10 +757,11 @@
             width: 350px;
         }
         .img-intro1 {
-            margin-top: -20%;
-            margin-left: 15px;
+            margin-top: -3%;
+            margin-left: 17px;
             width: 269.4px;
-            height: 255px;
+            height: 323px;
+            float: left;
         }
         .img-intro2 {
             display: none;

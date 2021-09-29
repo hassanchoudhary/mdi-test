@@ -912,7 +912,7 @@
     text-align: justify;
   }
   .story-mbl img {
-    width: 373px;
+    width: 360px;
     height: 300px;
   }
   .story-mbl a {
@@ -2787,7 +2787,7 @@
 
 .product-detail {
   background-color: rgba(225, 221, 212, 0.68);
-  padding: 60px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
 }
 
 .product-detail span {
@@ -2803,7 +2803,7 @@
   text-align: justify;
   letter-spacing: 1.11px;
   color: rgba(0, 0, 0, 0.8);
-  width: 106%;
+  width: 100%;
 }
 
 .product-detail img {
@@ -2820,7 +2820,7 @@
 .productdetail-img img {
   width: 1346px;
   height: 488.2px;
-  margin-left: -11px;
+  margin-left: -116px;
   margin-top: -80px;
 }
 

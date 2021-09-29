@@ -59,7 +59,7 @@
 }
 
 .resi-detail {
-    padding: 90px 0px 60px 0px;
+    padding: 30px 0px 0px 0px;
     background-color: $bodybackground;
     p {
         font-size: 20px;
@@ -90,7 +90,7 @@
     }
 }
 .resi-des {
-    padding: 30px 0px 60px 0px;
+    padding: 20px 0px 0px 0px;
     background-color: $bodybackground;
     p {
         font-size: 20px;
@@ -98,6 +98,9 @@
         letter-spacing: 1.11px;
         text-align: justify;
         color: $defaultcolor;
+        padding-top: 10%;
+        margin-left: 20px;
+        padding-bottom: 10%;
     }
     .slider-dis {
         font-size: 16px;
@@ -105,18 +108,18 @@
         font-style: italic;
         letter-spacing: 1px;
         color: $black;
-        width: 41%;
+        width: 88%;
         padding-top: 20px;
         text-align: justify;
     }
 }
 .resi-intro {
-    padding: 30px 0px 60px 0px;
+    padding: 0px 0px 0px 0px;
     background-color: $bodybackground;
     img {
         width: 602px;
         height: 160px;
-        margin-left: -28px;
+        margin-left: -135px;
         margin-top: 80px;
     }
     p{
@@ -127,16 +130,19 @@
         width: 365px;
         text-align: justify;
         text-transform: uppercase;
+        margin-left: 20px;
     }
     h5 {
         font-family: $secondfamily;
         font-size: 12px;
         font-weight: 700;
         letter-spacing: 6px;
+        margin-left: 20px;
+        padding-bottom: 20%;
     }
 }
 .resi-acco {
-    padding: 30px 0px 60px 0px;
+    padding: 0px 0px 60px 0px;
     background-color: $bodybackground;
     h2 {
         font-size: 50px;
@@ -148,11 +154,12 @@
     .img1 {
         width: 846.4px;
         height: 732.9px;
+        margin-top: -89px;
     }
     .img2 {
         width: 230px;
         height: 235px;
-        margin-top: 178%;
+        margin-top: 153%;
     }
     p {
         font-size: 16px;
@@ -161,6 +168,17 @@
         letter-spacing: 1px;
         color: #000;
         margin-top: 20px;
+    }
+    a {
+        color: $black;
+        font-family: $secondfamily;
+        font-size: 12px;
+        font-weight: 900;
+        letter-spacing: 6px;
+        margin-top: 5%;
+    }
+    .eq-btn {
+        margin-top: -7%;
     }
 }
 
@@ -192,21 +210,25 @@
         }
     }
     .resi-detail {
-        padding: 30px 0px 30px 0px ;
+        padding: 30px 0px 0px 0px ;
         p {
             font-size: 16px;
             letter-spacing: 3.33px;
             width: 90%;
-            margin-left: 4%;
+            margin-left: 5%;
             margin-right: 5%;
         }
     }
+    .line-left {
+        display: none;
+    }
     .resi-des {
-        padding: 30px 0px 30px 0px;
+        padding: 0px 0px 0px 0px;
         p {
             text-align: center;
             font-size: 16px;
             letter-spacing: 0.89px;
+            margin-left: 0px;
         }
         .slider-dis {
             font-size: 16px;
@@ -216,11 +238,11 @@
         }
     }
     .resi-intro {
-        padding: 30px 0px 30px 0px;
+        padding: 0px 0px 0px 0px;
         img {
-            margin-left: -19px;
-            margin-top: 0px;
-            width: 381px;
+            margin-left: -14px;
+            margin-top: -25px;
+            width: 389px;
             height: 112px;
         }
     }
@@ -228,10 +250,12 @@
         h2 {
             font-size: 28px;
             letter-spacing: 4px;
+            padding-top: 15%;
         }
         .img3 {
             width: 350px;
             height: 285px;
+            margin-left: 15px;
         }
         a {
             color: $black;

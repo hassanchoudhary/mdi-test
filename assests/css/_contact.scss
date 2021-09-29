@@ -60,7 +60,10 @@
 
 .contact-form {
     background-color: $bodybackground;
-    padding: 60px 0px 60px 0px;
+    padding: 30px 0px 60px 0px;
+    .heading {
+        padding-top: 35px;
+    }
     h2 {
         font-size: 50px;
         font-family: $headingfamily;
@@ -140,6 +143,7 @@
         }
     }
     .contact-form {
+        padding: 0px 0px 60px 0px;
         h2 {
             font-size: 24px;
             letter-spacing: 7px;

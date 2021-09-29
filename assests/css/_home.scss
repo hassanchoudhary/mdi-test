@@ -1,8 +1,23 @@
 /*  ######################## HOME PAGE CSS ############ */
-
+/*container border */ 
+.line {
+    border-left: 1px solid#aea79e;
+    border-right: 1px solid#aea79e;
+}
+.line-left {
+    border-left: 1px solid#aea79e;
+    display: block;
+}
+.vl {
+    border-left: 1px solid #aea79e;
+    height: 90px;
+    margin-left: 50%;
+    top: 0;
+    display: block;
+  }
 /* Header Css */
 .header {
-    background-image: url("../Images/DESKTOP/01_HOME/HOME_1.jpg");
+    background-image: url("../Images/DESKTOP/_HEADER/Home-Web.jpg");
     background-size: cover;
     background-position: bottom;
     .fa-search {
@@ -13,8 +28,8 @@
 
     .arrow {
         box-sizing: border-box;
-        height: 3vw;
-        width: 3vw;
+        width: 24px;
+        height: 24px;
         border-style: solid;
         border-color: white;
         border-width: 0px 1px 1px 0px;
@@ -134,8 +149,11 @@
 
 /* Introduction Section css */ 
 .introduction {
-    padding: 90px 0px 30px 0px;
+    padding: 40px 0px 0px 0px;
     background-color: $bodybackground;
+    .heading {
+        padding-top: 2%;
+    }
     span {
         font-family: $secondfamily;
         font-size: 12px;
@@ -172,12 +190,14 @@
     .img-intro1 {
         width: 530.3px;
         height: 502px;
-        margin-top: 30%;
+        margin-top: 45%;
+        padding-bottom: 20%;
     }
     .img-intro2 {
         width: 121%;
         height: 476px;
         display: block;
+        margin-top: 10%;
     }
     .img-intro3 {
         display: none;
@@ -278,6 +298,11 @@
     img {
         width: 848px;
         height: 473px;
+        margin-left: -55%;
+        margin-top: 15%;
+    }
+    .stry-span {
+        margin-left: 24%;
     }
     .numbrs {
         display: -webkit-inline-box;
@@ -288,6 +313,7 @@
             font-family: $textfamily;
             font-style: italic;
             color: $black;
+            margin-left: 20px;
         }
         span {
             font-size: 12px;
@@ -301,6 +327,9 @@
         img {
             width: 470.4px;
             height: 633px;
+            margin-left: 5%;
+            margin-top: 10%;
+            padding-bottom: 20%;
         }
         p {
             font-size: 20px;
@@ -335,6 +364,8 @@
         height: 600px;
         background-size: cover;
         object-fit: contain;
+        width: 1116.4px;
+        margin-left: 10px;
     }
     span {
         font-family: $secondfamily;
@@ -370,11 +401,12 @@
         color: $black;
     }
     .residence-intro{
-        margin-top: 90px;
+        margin-top: 30px;
         img {
             width: 608px;
             height: 335.9px;
-            margin-left: -117px;
+            margin-left: -118px;
+            margin-top: 15%;
         }
         p {
             font-size: 20px;
@@ -382,7 +414,7 @@
             letter-spacing: 4.17px;
             color: $secondcolor;
             width: 365px;
-            padding-top: 10px;
+            padding-top: 15%;
             margin-left: 0px;
             margin-right: 0px;
             text-align: justify;
@@ -393,12 +425,13 @@
             font-size: 12px;
             font-weight: 700;
             letter-spacing: 6px;
+            margin-left: 0px;
         }
     }
     .numbrs {
         display: -webkit-inline-box;
         p {
-            margin-left: 0%;
+            margin-left: 2%;
             margin-right: 0%;
             font-size: 16px;
             font-family: $textfamily;
@@ -412,6 +445,9 @@
             color: $black;
             margin-right: 20px;
         }
+    }
+    .num {
+        padding-top: 60px;
     }
 }
 
@@ -538,7 +574,7 @@
             top: 0;
             left: 0;
             background-color: rgba(0,0,0, 0.9);
-            background-image: url("../Images/MOBILE/01_HOME/HOME_1.jpg");
+            background-image: url("../Images/MOBILE/_HEADER/Home-Mobile.jpg");
             background-size: cover;
             overflow-x: hidden;
             transition: 0.5s;
@@ -680,12 +716,23 @@
 
     }
 
+    .line-left {
+        display: none;
+    }
+    .vl {
+        display: none;
+    }
+    .container {
+        padding-left: 0px;
+        padding-right: 0.5px;
+    }
     .header {
-      background-image: url("../Images/MOBILE/01_HOME/HOME_1.jpg");
+      background-image: url("../Images/MOBILE/_HEADER/Home-Mobile.jpg");
       .arrow {
         height: 5vw;
         width: 5vw;
         margin-top: 60%;
+        margin-bottom: 10%;
     }
       img {
         width: 150px;
@@ -694,7 +741,10 @@
       }
     }
     .introduction {
-        padding: 60px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        .heading {
+            padding-top: 15%;
+        }
         h2 {
             font-size: 28px;
             letter-spacing: 14px;
@@ -717,7 +767,7 @@
         }
         .img-intro3 {
             display: block;
-            width: 350px;
+            width: 373px;
             height: 400px;
           margin-bottom: 30px;
         }
@@ -726,7 +776,7 @@
         }
         .img-intro5 {
             display: block;
-            width: 350px;
+            width: 373px;
             height: 400px;
         }
         .img-count {
@@ -775,7 +825,7 @@
             text-align: justify;
         }
         img {
-            width: 350px;
+            width: 373px;
             height: 300px;
         }
         a {
@@ -810,6 +860,7 @@
             height: 300px;
             float: right;
             margin-top: 30px;
+            margin-right: 30px;
         }
     }
     .our-residence {
@@ -843,7 +894,7 @@
             text-align: justify;
         }
         img {
-            width: 350px;
+            width: 373px;
             height: 300px;
         }
         a {
@@ -878,10 +929,19 @@
     .connect h2 {
         font-size: 28px;
     }
+    .connect {
+        .container {
+            padding-left: 30px;
+        }
+    }
     .footer {
         display: none;
     }
     .footer-mbl {
+        .container {
+            padding-left: 30px;
+            padding-right: 30px;
+        }
         display: block;
         padding: 50px 0px 50px 0px;
         background-color: #3a352d;

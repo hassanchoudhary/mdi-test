@@ -1,17 +1,16 @@
 /*  ######################## RESIDENCE DETAIL PAGE CSS ############ */
 
 .residence-detail-header {
-    background-image: url("../Images/DESKTOP/06_RESIDENCES_2/RESIDENCES_2_1.jpg");
+    background-image: url("../Images/DESKTOP/_HEADER/Residence-Detail-Web.jpg");
     background-size: cover;
-    background-position: bottom;
     .fa-search {
         color: $white;
         font-size: 15px;
     }
     .arrow {
         box-sizing: border-box;
-        height: 3vw;
-        width: 3vw;
+        width: 24px;
+        height: 24px;
         border-style: solid;
         border-color: white;
         border-width: 0px 1px 1px 0px;

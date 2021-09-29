@@ -1,17 +1,16 @@
 /*  ######################## CONTACT PAGE CSS ############ */
 
 .contact-header {
-    background-image: url("../Images/DESKTOP/09_CONTACT/CONTACT.jpg");
+    background-image: url("../Images/DESKTOP/_HEADER/Contact-Web.jpg");
     background-size: cover;
-    background-position: bottom;
     .fa-search {
         color: $white;
         font-size: 15px;
     }
     .arrow {
         box-sizing: border-box;
-        height: 3vw;
-        width: 3vw;
+        width: 24px;
+        height: 24px;
         border-style: solid;
         border-color: white;
         border-width: 0px 1px 1px 0px;
@@ -125,11 +124,11 @@
 
         .mbl-nav {
             .overlay {
-                background-image: url("../Images/MOBILE/09_CONTACT/CONTACT_1.jpg");
+                background-image: url("../Images/MOBILE/_HEADER/Contact-Mobile.jpg");
               }
             }
 
-        background-image: url("../Images/MOBILE/09_CONTACT/CONTACT_1.jpg");
+        background-image: url("../Images/MOBILE/_HEADER/Contact-Mobile.jpg");
         height: 500px;
         .contact-heading {
             padding: 25% 0% 20% 0%;

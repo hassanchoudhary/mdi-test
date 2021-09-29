@@ -61,7 +61,7 @@
 
 .wine-dis {
     background-color: #ebe8e2;
-    padding: 70px 0px 50px 0px;
+    padding: 70px 0px 0px 0px;
     p {
         font-size: 20px;
         font-family: $headingfamily;
@@ -73,9 +73,30 @@
         text-transform: uppercase;
     }
 }
+.wine-vl {
+    border-left: 1px solid #aea79e;
+    height: 50px;
+    margin-left: 26%;
+    top: 0;
+    display: block;
+    margin-top: -4%;
+    display: block;
+  }
+  .wine-vl2 {
+    border-left: 1px solid #aea79e;
+    height: 50px;
+    margin-left: 78%;
+    top: 0;
+    display: block;
+    margin-top: -5%;
+    display: block;
+  }
 .wine-collection {
     background-color: #ebe8e2;
     padding-bottom: 90px;
+    .heading {
+        padding-top: 35px;
+    }
     span {
         font-family: $secondfamily;
         font-size: 12px;
@@ -92,9 +113,11 @@
         margin-top: 20px;
     }
     .wine-item {
+        margin-left: -1px;
         img {
             width: 250.8px;
             height: 700px;
+            margin-left: 20px;
         }
         h3 {
             font-size: 20px;
@@ -103,6 +126,8 @@
             color: $defaultcolor;
             margin-top: 10%;
             margin-bottom: 10%;
+            text-align: -webkit-match-parent;
+            margin-left: 20px;
         }
         a {
             color: $black;
@@ -110,13 +135,16 @@
             font-size: 12px;
             font-weight: 900;
             letter-spacing: 6px;
+            margin-left: 20px;
         }
         p {
             font-size: 24px;
-            letter-spacing: 4px;
+            letter-spacing: 3px;
             color: $defaultcolor;
             font-family: $headingfamily;
             padding-top: 130%;
+            padding-bottom: 148%;
+            padding-left: 10px;
         }
     }
 }
@@ -149,6 +177,15 @@
         padding: 75% 0% 2% 0%;
     }
     }
+    .wine-vl {
+        display: none;
+    }
+    .wine-vl2 {
+        display: none;
+    }
+    .line-left {
+        display: block;
+    }
     .wine-dis {
         .dis-p1 {
             font-size: 16px;
@@ -168,6 +205,7 @@
     }
 
     .wine-collection {
+        padding-bottom: 0px;
         h2 {
             font-size: 28px;
             letter-spacing: 14px;
@@ -176,6 +214,13 @@
             img {
                 width: 150.8px;
                 height: 500px;
+                margin-left: 0px;
+            }
+            h2 {
+                margin-left: 0px;
+            }
+            a {
+                margin-left: 0px;
             }
         }
         p {

@@ -1764,7 +1764,7 @@
 
 .wine-dis {
   background-color: #ebe8e2;
-  padding: 70px 0px 50px 0px;
+  padding: 70px 0px 0px 0px;
 }
 
 .wine-dis p {
@@ -1778,9 +1778,33 @@
   text-transform: uppercase;
 }
 
+.wine-vl {
+  border-left: 1px solid #aea79e;
+  height: 50px;
+  margin-left: 26%;
+  top: 0;
+  display: block;
+  margin-top: -4%;
+  display: block;
+}
+
+.wine-vl2 {
+  border-left: 1px solid #aea79e;
+  height: 50px;
+  margin-left: 78%;
+  top: 0;
+  display: block;
+  margin-top: -5%;
+  display: block;
+}
+
 .wine-collection {
   background-color: #ebe8e2;
   padding-bottom: 90px;
+}
+
+.wine-collection .heading {
+  padding-top: 35px;
 }
 
 .wine-collection span {
@@ -1800,9 +1824,14 @@
   margin-top: 20px;
 }
 
+.wine-collection .wine-item {
+  margin-left: -1px;
+}
+
 .wine-collection .wine-item img {
   width: 250.8px;
   height: 700px;
+  margin-left: 20px;
 }
 
 .wine-collection .wine-item h3 {
@@ -1812,6 +1841,8 @@
   color: rgba(0, 0, 0, 0.8);
   margin-top: 10%;
   margin-bottom: 10%;
+  text-align: -webkit-match-parent;
+  margin-left: 20px;
 }
 
 .wine-collection .wine-item a {
@@ -1820,14 +1851,17 @@
   font-size: 12px;
   font-weight: 900;
   letter-spacing: 6px;
+  margin-left: 20px;
 }
 
 .wine-collection .wine-item p {
   font-size: 24px;
-  letter-spacing: 4px;
+  letter-spacing: 3px;
   color: rgba(0, 0, 0, 0.8);
   font-family: lovato;
   padding-top: 130%;
+  padding-bottom: 148%;
+  padding-left: 10px;
 }
 
 /* Wine Page Mobile Responsive CSs */
@@ -1852,6 +1886,15 @@
   .wine-header .wine-heading {
     padding: 75% 0% 2% 0%;
   }
+  .wine-vl {
+    display: none;
+  }
+  .wine-vl2 {
+    display: none;
+  }
+  .line-left {
+    display: block;
+  }
   .wine-dis .dis-p1 {
     font-size: 16px;
     font-family: lovato;
@@ -1867,6 +1910,9 @@
     margin-top: 10%;
     margin-left: 5%;
   }
+  .wine-collection {
+    padding-bottom: 0px;
+  }
   .wine-collection h2 {
     font-size: 28px;
     letter-spacing: 14px;
@@ -1874,6 +1920,13 @@
   .wine-collection .wine-item img {
     width: 150.8px;
     height: 500px;
+    margin-left: 0px;
+  }
+  .wine-collection .wine-item h2 {
+    margin-left: 0px;
+  }
+  .wine-collection .wine-item a {
+    margin-left: 0px;
   }
   .wine-collection p {
     padding-top: 70% !important;

@@ -59,7 +59,10 @@
 
 .stay-mas {
     background-color: $bodybackground;
-    padding: 60px 0px 30px 0px;
+    padding: 60px 0px 0px 0px;
+    .heading {
+        padding-top: 35px;
+    }
     span {
         font-family: $secondfamily;
         font-size: 12px;
@@ -87,7 +90,7 @@
 
 .stay-category {
     background-color: $bodybackground;
-    padding: 30px 0px 60px 0px;
+    padding: 0px 0px 0px 0px;
     span {
         color: #aea79e;
         font-size: 12px;
@@ -112,17 +115,17 @@
 }
 .stayimg-section {
     background-color: $bodybackground;
-    padding: 30px 0px 60px 0px;
+    padding: 0px 0px 0px 0px;
     .stayimg1 {
-        width: 100%;
+        width: 900px;
         height: 652px;
-        margin-left: -2%;
+        margin-left: -16%;
     }
     .stayimg2 {
         width: 292px;
         height: 225.6px;
         margin-top: 50%;
-        margin-left: 20%;
+        margin-left: 38%;
     }
     span {
         font-family: P22Underground;
@@ -131,7 +134,7 @@
     }
 
     .stay-intro {
-        margin-top: 5%;
+        margin-top: -2%;
         p {
             font-size: 20px;
             font-family: $headingfamily;
@@ -139,6 +142,8 @@
             text-align: justify;
             color: $secondcolor;
             text-transform: uppercase;
+            width: 66%;
+            padding-top: 20%;
         }
         h5 {
             font-family: $secondfamily;
@@ -148,9 +153,10 @@
         }
     }
     .stayimg3 {
-        width: 686px;
+        width: 661px;
         height: 466.7px;
-        margin-left: 17%;
+        margin-left: 0%;
+        margin-top: 20%;
     }
     .stayimg4 {
         width: 523px;
@@ -158,7 +164,8 @@
         margin-top: -28px;
     }
     .stay-point {
-        margin-top: 13%;
+        padding-top: 13%;
+        padding-bottom: 10%;
     }
     .numbrs {
         display: flex;
@@ -182,18 +189,18 @@
 }
 .accomodation {
     background-color: $bodybackground;
-    padding: 30px 0px 60px 0px;
+    padding: 0px 0px 60px 0px;
     h2 {
         font-size: 50px;
         font-family: $headingfamily;
         letter-spacing: 25px;
         color: $defaultcolor;
         text-align: center;
+        padding: 20px 0px 20px 0px;
     }
     .acco-img {
         width: 1057px;
         height: 753.2px;
-        margin-top: 5%;
     }
     .acco-img1 {
         width: 230px;
@@ -236,14 +243,14 @@
 
 
     background-image: url("../Images/MOBILE/05_RESIDENCES_1/RESIDENCES_1_1.jpg");
-    height: 600px;
+    height: 700px;
     .arrow {
         height: 5vw;
         width: 5vw;
         margin-top: 66%;
     }
     .residence-heading {
-        padding: 38% 0% 20% 0%;
+        padding: 68% 0% 20% 0%;
     }
     h2 {
         font-size: 28px;
@@ -252,9 +259,10 @@
     }
 }
 .stay-mas {
+    padding: 0px 0px 0px 0px;
     h2 {
         font-size: 28px;
-        letter-spacing: 18px;
+        letter-spacing: 20px;
     }
     p {
         font-size: 16px;
@@ -280,7 +288,7 @@
         border-bottom: 1px solid #8f8982;
     }
     .stayimg1-mbl {
-        width: 350px;
+        width: 373px;
         height: 400px;
     }
     .stayimg-desmbl{

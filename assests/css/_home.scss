@@ -28,16 +28,16 @@
 
     .arrow {
         box-sizing: border-box;
-        width: 24px;
-        height: 24px;
+        width: 22px;
+        height: 22px;
         border-style: solid;
         border-color: white;
         border-width: 0px 1px 1px 0px;
         transform: rotate(45deg);
         transition: border-width 150ms ease-in-out;
         margin-left: 49%;
-        margin-top: 11%;
-        margin-bottom: 5%;
+        margin-top: 15%;
+        margin-bottom: 3%;
     }
     .arrow:hover {
         border-bottom-width: 4px;
@@ -54,16 +54,16 @@
         letter-spacing: 6px;
     }
     .nav-item {
-        margin-right: 20px;
+        margin-right: 38px;
+        margin-top: -4;
     }
     nav {
         padding: 40px 20px;
     }
     img {
-        width: 200px;
-        height: 200px;
-        float: center;
-        margin-top: 11%;
+        width: 287px;
+        height: 245px;
+        margin-top: 11.7%;
     }
 }
 
@@ -155,9 +155,9 @@
         padding-top: 2%;
     }
     span {
-        font-family: $secondfamily;
+        font-family: $textfamily;
         font-size: 12px;
-        letter-spacing: 3px;
+        letter-spacing: 6px;
         color: $secondcolor;
     }
     h2 {
@@ -171,11 +171,11 @@
         font-size: 20px;
         font-family: $textfamily;
         color: $defaultcolor;
-        width: 58%;
-        margin-left: 21%;
-        margin-right: 24%;
-        text-align: left;
+        width: 50%;
+        position: relative;
+        margin: auto;
         text-align: justify;
+        padding-bottom: 15px;
     }
     a {
         color: $black;
@@ -183,6 +183,7 @@
         font-size: 12px;
         font-weight: 900;
         letter-spacing: 6px;
+        padding-top: 20px;
     }
     a:hover {
         color: $black;
@@ -190,11 +191,11 @@
     .img-intro1 {
         width: 530.3px;
         height: 502px;
-        margin-top: 45%;
+        margin-top: 50%;
         padding-bottom: 20%;
     }
     .img-intro2 {
-        width: 121%;
+        width: 111%;
         height: 476px;
         display: block;
         margin-top: 10%;
@@ -214,7 +215,7 @@
         display: block;
     }
     img {
-        width: 560px;
+        width: 591px;
         height: 160px;
     }
     .numbrs {
@@ -230,10 +231,11 @@
         }
         span {
             font-size: 12px;
-            font-family: $secondfamily;
+            font-family: $textfamily;
             font-weight: 500;
             color: $black;
             margin-right: 20px;
+            letter-spacing: 4px;
         }
     }
 }
@@ -253,9 +255,9 @@
     background-size: cover;
     padding: 190px 0px 190px 0px;
     span {
-        font-family: $secondfamily;
+        font-family: $textfamily;
         font-size: 12px;
-        letter-spacing: 3px;
+        letter-spacing: 6px;
         color: $white;
     }
     h2 {
@@ -268,12 +270,12 @@
     p {
         font-size: 20px;
         font-family: $textfamily;
-        width: 58%;
-        margin-left: 22%;
-        margin-right: 24%;
-        text-align: left;
+        width: 50%;
+        margin: auto;
+        position: relative;
         color: rgba(255, 255, 255, 0.8);
         text-align: justify;
+        padding-bottom: 15px;
     }
     a {
         color: $white;
@@ -298,11 +300,11 @@
     img {
         width: 848px;
         height: 473px;
-        margin-left: -55%;
         margin-top: 15%;
+        float: right;
     }
     .stry-span {
-        margin-left: 24%;
+        margin-left: 34.5%;
     }
     .numbrs {
         display: -webkit-inline-box;
@@ -317,19 +319,20 @@
         }
         span {
             font-size: 12px;
-            font-family: $secondfamily;
+            font-family: $textfamily;
             font-weight: 500;
             color: $black;
             margin-right: 20px;
+            letter-spacing: 4px;
         }
     }
     .intro-story {
         img {
             width: 470.4px;
             height: 633px;
-            margin-left: 5%;
             margin-top: 10%;
             padding-bottom: 20%;
+            margin-right: 50px;
         }
         p {
             font-size: 20px;
@@ -360,18 +363,12 @@
     background-color: $bodybackground;
     display: block;
     .bg-residence {
-        background-image: url("../Images/DESKTOP/01_HOME/HOME_9.jpg");
         height: 600px;
-        background-size: cover;
-        object-fit: contain;
-        width: 1116.4px;
-        margin-left: 10px;
-        background-position: center;
     }
     span {
-        font-family: $secondfamily;
+        font-family: $textfamily;
         font-size: 12px;
-        letter-spacing: 3px;
+        letter-spacing: 6px;
         color: $secondcolor;
     }
     h2 {
@@ -385,11 +382,11 @@
         font-size: 20px;
         font-family: $textfamily;
         color: $defaultcolor;
-        width: 58%;
-        margin-left: 24%;
-        margin-right: 24%;
-        text-align: left;
+        width: 50%;
+        margin: auto;
+        position: relative;
         text-align: justify;
+        padding-bottom: 15px;
     }
     a {
         color: $black;
@@ -441,7 +438,7 @@
         }
         span {
             font-size: 12px;
-            font-family: $secondfamily;
+            font-family: $textfamily;
             font-weight: 500;
             color: $black;
             margin-right: 20px;
@@ -458,9 +455,9 @@
     background-color: rgba(170, 162, 154, 0.3);
     padding: 90px 0px 90px 0px;
     span {
-        font-family: $secondfamily;
+        font-family: $textfamily;
         font-size: 12px;
-        letter-spacing: 3px;
+        letter-spacing: 6px;
         color: #484133;
     }
     h2 {
@@ -519,7 +516,7 @@
             letter-spacing: 1px;
             font-weight: normal;
             line-height: 1.38;
-            width: 80%;
+            width: 70%;
         }
         input {
             padding: 14px 0 14px 17px;
